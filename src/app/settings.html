@@ -1,0 +1,30 @@
+<md-dialog id="settings" aria-label="Settings">
+  <form ng-cloak>
+    <md-toolbar>
+      <div class="md-toolbar-tools" layout="row" layout-align="space-between center">
+        <h2 translate="SETTINGS">Settings</h2>
+        <md-button class="md-icon-button" ng-click="cancel()">
+          <md-icon class="close-icon" aria-label="Close dialog">&#x2715</md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+
+    <md-dialog-content>
+      <div class="md-dialog-content" layout="row">
+        <md-input-container flex>
+          <label translate="LANGUAGE">Language</label>
+          <md-select ng-model="language">
+            <md-option ng-repeat="(id, name) in ::languages" ng-value="id">
+              <span ng-bind-html="name"></span>
+            </md-option>
+          </md-select>
+        </md-input-container>
+      </div>
+    </md-dialog-content>
+
+    <md-dialog-actions layout="row" layout-align="end">
+      <md-button ng-click="cancel()" class="md-raised" translate="CANCEL">Cancel</md-button>
+      <md-button ng-click="save()" class="md-primary md-raised md-hue-1" translate="OK">OK</md-button>
+    </md-dialog-actions>
+  </form>
+</md-dialog>

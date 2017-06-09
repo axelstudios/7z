@@ -1,0 +1,47 @@
+{
+  "ARCHIVE_FORMAT": "Arkivformat",
+  "COMPRESSION_LEVEL": "Komprimeringsnivå",
+  "COMPRESSION_LEVELS": {
+    "0": "Okomprimerat",
+    "1": "Snabbaste",
+    "3": "Snabb",
+    "7": "Maximal"
+  },
+  "COMPRESSION_METHOD": "Komprimeringsmetod",
+  "DICTIONARY_SIZE": "Storlek på ordlista",
+  "WORD_SIZE": "Storlek på ord",
+  "SOLID_BLOCK_SIZE": "Solit block storlek",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Icke-solit",
+    "on": "Solit"
+  },
+  "NUMBER_OF_CPU_THREADS": "Antal trådar",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Minne behövt vid komprimering",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Minne behövt vid dekomprimering",
+  "SPLIT_TO_VOLUME_BYTES": "Dela upp i delar (volymer), bytes",
+  "UPDATE_MODE": "Uppdateringsmetod",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Lägg till och ersätt filer",
+    "UPDATE_AND_ADD_FILES": "Lägg till och uppdatera befintliga filer",
+    "FRESHEN_EXISTING_FILES": "Uppdatera enbart befintliga filer",
+    "SYNCHRONIZE_FILES": "Synkronisera filer"
+  },
+  "PATH_MODE": "Sökvägstyp",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Kompletta sökvägar"
+  },
+  "OPTIONS_TITLE": "Alternativ",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "CSkapa självuppackande arkiv",
+    "COMPRESS_SHARED_FILES": "Komprimera delade filer"
+  },
+  "ENCRYPTION_TITLE": "Kryptering",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Ange lösenord",
+    "ENCRYPTION_METHOD": "Krypteringsmetod",
+    "ENCRYPT_FILE_NAMES": "Kryptera filnamn"
+  },
+  "SETTINGS": "Inställningar",
+  "LANGUAGE": "Språk",
+  "CANCEL": "Avbryt"
+}

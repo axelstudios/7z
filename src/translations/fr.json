@@ -1,0 +1,55 @@
+{
+  "ARCHIVE_FORMAT": "Format de l'archive",
+  "COMPRESSION_LEVEL": "Niveau de compression",
+  "COMPRESSION_LEVELS": {
+    "0": "Aucune",
+    "1": "Le plus rapide",
+    "3": "Rapide",
+    "5": "Normale"
+  },
+  "COMPRESSION_METHOD": "Méthode de compression",
+  "DICTIONARY_SIZE": "Taille du dictionnaire",
+  "WORD_SIZE": "Taille des mots",
+  "SOLID_BLOCK_SIZE": "Taille de bloc solide",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Non-solide",
+    "on": "Solide"
+  },
+  "NUMBER_OF_CPU_THREADS": "Nombre de threads CPU",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Mémoire pour la compression",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Mémoire pour la décompression",
+  "SPLIT_TO_VOLUME_BYTES": "Diviser en volumes, octets",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "Emmagasine liens symboliques",
+    "STORE_HARD_LINKS": "Emmagasine liens solides",
+    "STORE_ALTERNATE_DATA_STREAMS": "Emmagasine flux de données alternatifs",
+    "STORE_FILE_SECURITY": "Emmagasine fichier de sécurité"
+  },
+  "UPDATE_MODE": "Mode de mise à jour",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Ajouter et remplacer les fichiers",
+    "UPDATE_AND_ADD_FILES": "Mettre à jour et ajouter les fichiers",
+    "FRESHEN_EXISTING_FILES": "Rafraîchir les fichiers existants",
+    "SYNCHRONIZE_FILES": "Synchroniser les fichiers"
+  },
+  "PATH_MODE": "Mode de chemin",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "Nom de chemin relatif",
+    "FULL_PATHNAMES": "Nom de chemin complet",
+    "ABSOLUTE_PATHNAMES": "Nom de chemin absolu"
+  },
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Créer une archive SFX",
+    "COMPRESS_SHARED_FILES": "Compresser des fichiers partagés",
+    "DELETE_FILES_AFTER_COMPRESSION": "Effacer les fichiers après compression"
+  },
+  "ENCRYPTION_TITLE": "Chiffrement",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Entrez le mot de passe",
+    "ENCRYPTION_METHOD": "Méthode de chiffrement",
+    "ENCRYPT_FILE_NAMES": "Chiffre les noms de fichiers"
+  },
+  "SETTINGS": "Paramètres",
+  "LANGUAGE": "Langue",
+  "CANCEL": "Annuler"
+}

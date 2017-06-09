@@ -1,0 +1,48 @@
+{
+  "ARCHIVE_FORMAT": "Formato de archivo",
+  "COMPRESSION_LEVEL": "Nivel de compresión",
+  "COMPRESSION_LEVELS": {
+    "0": "Sin compresión",
+    "1": "La más rápida",
+    "3": "Rápida",
+    "7": "Máxima"
+  },
+  "COMPRESSION_METHOD": "Tipo de compresión",
+  "DICTIONARY_SIZE": "Tamaño de diccionario",
+  "WORD_SIZE": "Tamaño de la palabra",
+  "SOLID_BLOCK_SIZE": "Tamaño de bloque compacto",
+  "SOLID_BLOCK_SIZES": {
+    "off": "No compacto",
+    "on": "Sin límite"
+  },
+  "NUMBER_OF_CPU_THREADS": "Número de hilos de la CPU",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Memoria usada para comprimir",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Memoria usada para descomprimir",
+  "SPLIT_TO_VOLUME_BYTES": "Dividir en fragmentos (bytes)",
+  "UPDATE_MODE": "Modo de actualización",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Añadir y sustituir archivos",
+    "UPDATE_AND_ADD_FILES": "Actualizar y añadir archivos",
+    "FRESHEN_EXISTING_FILES": "Solo actualizar archivos",
+    "SYNCHRONIZE_FILES": "Sincronizar archivos"
+  },
+  "PATH_MODE": "Modo de directorio",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Directorio completo"
+  },
+  "OPTIONS_TITLE": "Opciones",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Crear archivo SFX (autoextraíble)",
+    "COMPRESS_SHARED_FILES": "Comprimir archivos abiertos para escritura"
+  },
+  "ENCRYPTION_TITLE": "Encriptación",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Escribe la contraseña",
+    "ENCRYPTION_METHOD": "Método de encriptación",
+    "ENCRYPT_FILE_NAMES": "Encriptar nombres de fichero"
+  },
+  "SETTINGS": "Propiedades",
+  "LANGUAGE": "Lengua",
+  "OK": "Aceptar",
+  "CANCEL": "Cancelar"
+}

@@ -1,0 +1,58 @@
+{
+  "ARCHIVE_FORMAT": "Формат архива",
+  "COMPRESSION_LEVEL": "Уровень сжатия",
+  "COMPRESSION_LEVELS": {
+    "0": "Без сжатия",
+    "1": "Скоростной",
+    "3": "Быстрый",
+    "5": "Нормальный",
+    "7": "Максимальный",
+    "9": "Ультра"
+  },
+  "COMPRESSION_METHOD": "Метод сжатия",
+  "DICTIONARY_SIZE": "Размер словаря",
+  "WORD_SIZE": "Размер слова",
+  "SOLID_BLOCK_SIZE": "Размер блока",
+  "SOLID_BLOCK_SIZES": {
+    "off": "По размеру файла",
+    "on": "Непрерывный"
+  },
+  "NUMBER_OF_CPU_THREADS": "Число потоков",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Объем памяти для упаковки",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Объем памяти для распаковки",
+  "SPLIT_TO_VOLUME_BYTES": "Разбить на тома размером (в байтах)",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "Сохранять символьные ссылки",
+    "STORE_HARD_LINKS": "Сохранять жесткие ссылки",
+    "STORE_ALTERNATE_DATA_STREAMS": "Сохранять альтернативные потоки",
+    "STORE_FILE_SECURITY": "Сохранять права доступа"
+  },
+  "UPDATE_MODE": "Режим изменения",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Добавить и заменить",
+    "UPDATE_AND_ADD_FILES": "Обновить и добавить",
+    "FRESHEN_EXISTING_FILES": "Обновить",
+    "SYNCHRONIZE_FILES": "Синхронизировать"
+  },
+  "PATH_MODE": "Пути к файлам",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "Относительные пути",
+    "FULL_PATHNAMES": "Полные пути",
+    "ABSOLUTE_PATHNAMES": "Абсолютные пути"
+  },
+  "OPTIONS_TITLE": "Опции",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Создать SFX-архив",
+    "COMPRESS_SHARED_FILES": "Сжимать открытые для записи файлы",
+    "DELETE_FILES_AFTER_COMPRESSION": "Удалять файлы после сжатия"
+  },
+  "ENCRYPTION_TITLE": "Шифрование",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Введите пароль",
+    "ENCRYPTION_METHOD": "Метод шифрования",
+    "ENCRYPT_FILE_NAMES": "Шифровать имена файлов"
+  },
+  "SETTINGS": "Hастройки",
+  "LANGUAGE": "Язык",
+  "CANCEL": "Отмена"
+}

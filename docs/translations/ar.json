@@ -1,0 +1,59 @@
+{
+  "ARCHIVE_FORMAT": "صيغة الإرشيف",
+  "COMPRESSION_LEVEL": "مستوى الضغط",
+  "COMPRESSION_LEVELS": {
+    "0": "للخزن",
+    "1": "ألاسرع",
+    "3": "السريع",
+    "5": "الطبيعي",
+    "7": "المرتفع",
+    "9": "ألاقصى"
+  },
+  "COMPRESSION_METHOD": "طريقة الضغط",
+  "DICTIONARY_SIZE": "حجم المعجم",
+  "WORD_SIZE": "حجم الكلمة",
+  "SOLID_BLOCK_SIZE": "حجم الكتلة الخاصة",
+  "SOLID_BLOCK_SIZES": {
+    "off": "غير خالص",
+    "on": "خالص"
+  },
+  "NUMBER_OF_CPU_THREADS": "CPU عدد مؤشرات الـ",
+  "MEMORY_USAGE_FOR_COMPRESSING": "إستهلاك الذاكرة للضغط",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "إستهلاك الذاكرة لإلغاء الضغط",
+  "SPLIT_TO_VOLUME_BYTES": "التقسيم لكتل أو بايتات",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "خزن الاتباطات الرمزية",
+    "STORE_HARD_LINKS": "خزن الارتباطات الصعبة",
+    "STORE_ALTERNATE_DATA_STREAMS": "خزن جداول البيانات البديلة",
+    "STORE_FILE_SECURITY": "خزن ملف الامان"
+  },
+  "UPDATE_MODE": "حالة التحديث",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "إضافة واستبدال الملفات",
+    "UPDATE_AND_ADD_FILES": "تحديث و إضافة الملفات",
+    "FRESHEN_EXISTING_FILES": "تجديد الملفات المتوفرة فقط",
+    "SYNCHRONIZE_FILES": "مزامنة الملفات"
+  },
+  "PATH_MODE": "حالة المسار",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "اسم المسار النسبي",
+    "FULL_PATHNAMES": "اسم المسار بالكامل",
+    "ABSOLUTE_PATHNAMES": "اسم المسار المطلق"
+  },
+  "OPTIONS_TITLE": "الخيارات",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "نشاء إرشيف ذاتي الإستخراج",
+    "COMPRESS_SHARED_FILES": "ضغط الملفات المشاركة",
+    "DELETE_FILES_AFTER_COMPRESSION": "حذف الملفات بعد الضغط"
+  },
+  "ENCRYPTION_TITLE": "التشفير",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "أدخل كلمة المرور",
+    "ENCRYPTION_METHOD": "طريقة التشفير",
+    "ENCRYPT_FILE_NAMES": "تشفير أسماء ال&ملفات"
+  },
+  "SETTINGS": "إعدادات",
+  "LANGUAGE": "لغة",
+  "OK": "حسنا",
+  "CANCEL": "إلغاء الأمر"
+}

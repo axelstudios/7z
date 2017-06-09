@@ -1,0 +1,181 @@
+<div layout="column" ng-cloak>
+  <div id="output" layout="column" layout-align="center center">
+    <span ng-if="$ctrl.getPassTxt()">{{ $ctrl.getPassTxt() }}</span>
+    <span>
+      7z.exe
+      {{ $ctrl.getCommand() }}
+      {{ $ctrl.getType() }}
+      {{ $ctrl.getCompressionLevel() }}
+      {{ $ctrl.getCompressionMethod() }}
+      {{ $ctrl.getDictionarySize() }}
+      {{ $ctrl.getWordSize() }}
+      {{ $ctrl.getSolidBlockSize() }}
+      {{ $ctrl.getCpuThreads() }}
+      {{ $ctrl.getSplitToVolume() }}
+      {{ $ctrl.getStoreSymbolicLinks() }}
+      {{ $ctrl.getStoreHardLinks() }}
+      {{ $ctrl.getStoreAlternateDataStreams() }}
+      {{ $ctrl.getStoreFileSecurity() }}
+      {{ $ctrl.getEncryptionMethod() }}
+      {{ $ctrl.getEncryptFileNames() }}
+      {{ $ctrl.getPassword() }}
+      {{ $ctrl.getPathMode() }}
+      {{ $ctrl.getSfxArchive() }}
+      {{ $ctrl.getCompressSharedFiles() }}
+      {{ $ctrl.getDeleteFilesAfter() }}
+      &lt;archive_name&gt; [&lt;file_names&gt;...]
+      {{ $ctrl.getPassTxt() ? ' &lt; pass.txt' : '' }}
+    </span>
+  </div>
+  <div id="inputs" layout="row">
+    <div flex hide show-gt-sm></div>
+    <div flex flex-gt-sm="66" class="form-wrapper md-whiteframe-1dp">
+      <div layout="row" layout-align="space-between center" class="form-title">
+        <span translate="TITLE">7-Zip Command Line Reference Wizard</span>
+        <md-button class="md-icon-button" ng-click="$ctrl.openSettings($event)" aria-label="Settings">
+          <md-icon>&#x2630;</md-icon>
+        </md-button>
+      </div>
+      <div layout-wrap layout-gt-xs="row">
+        <div flex-gt-xs="50" class="md-padding left-panel">
+          <div layout="row" layout-align="space-between center">
+            <span><span translate="ARCHIVE_FORMAT">Archive format</span>:</span>
+            <md-select ng-model="$ctrl.archiveFormat" ng-change="$ctrl.archiveFormatChanged()" class="md-no-underline" aria-label="Archive format">
+              <md-option ng-value="option" ng-repeat="option in ::$ctrl.archiveFormats">{{ option }}</md-option>
+            </md-select>
+          </div>
+          <div layout="row" layout-align="space-between center">
+            <span><span translate="COMPRESSION_LEVEL">Compression level</span>:</span>
+            <md-select ng-model="$ctrl.compressionLevel" ng-change="$ctrl.compressionLevelChanged()" class="md-no-underline" aria-label="Compression level">
+              <md-option ng-value="option" ng-repeat="option in $ctrl.compressionLevels">{{ 'COMPRESSION_LEVELS.' + option | translate }}</md-option>
+            </md-select>
+          </div>
+          <div layout="row" layout-align="space-between center" ng-disabled="$ctrl._.isEmpty($ctrl.compressionMethods)">
+            <span><span translate="COMPRESSION_METHOD">Compression method</span>:</span>
+            <md-select ng-model="$ctrl.compressionMethod" ng-change="$ctrl.compressionMethodChanged()" class="md-no-underline" aria-label="Compression method">
+              <md-option ng-value="option" ng-repeat="option in $ctrl.compressionMethods">{{ option }}</md-option>
+            </md-select>
+          </div>
+          <div layout="row" layout-align="space-between center" ng-disabled="$ctrl._.isEmpty($ctrl.dictionarySizes)">
+            <span><span translate="DICTIONARY_SIZE">Dictionary size</span>:</span>
+            <md-select ng-model="$ctrl.dictionarySize" class="md-no-underline" aria-label="Dictionary size">
+              <md-option ng-value="option" ng-repeat="option in $ctrl.dictionarySizes">{{ option | size }}</md-option>
+            </md-select>
+          </div>
+          <div layout="row" layout-align="space-between center" ng-disabled="$ctrl._.isEmpty($ctrl.wordSizes)">
+            <span><span translate="WORD_SIZE">Word size</span>:</span>
+            <md-select ng-model="$ctrl.wordSize" class="md-no-underline" aria-label="Word size">
+              <md-option ng-value="option" ng-repeat="option in $ctrl.wordSizes">{{ option }}</md-option>
+            </md-select>
+          </div>
+          <div layout="row" layout-align="space-between center" ng-disabled="$ctrl._.isEmpty($ctrl.solidBlockSizes)">
+            <span><span translate="SOLID_BLOCK_SIZE">Solid Block size</span>:</span>
+            <md-select ng-model="$ctrl.solidBlockSize" class="md-no-underline" aria-label="Solid Block size">
+              <md-option ng-value="option" ng-repeat="option in $ctrl.solidBlockSizes">{{ option === 'off' || option === 'on' ? ('SOLID_BLOCK_SIZES.' + option | translate) : (option | size) }}</md-option>
+            </md-select>
+          </div>
+          <div layout="row" layout-align="space-between center" ng-disabled="!$ctrl._.isNumber($ctrl.getMaxThreads())">
+            <span><span translate="NUMBER_OF_CPU_THREADS">Number of CPU threads</span>:</span>
+            <span>
+              <md-select ng-model="$ctrl.cpuThreads" class="md-no-underline" aria-label="Number of CPU threads">
+                <md-option ng-value="i + 1" ng-repeat="i in $ctrl._.times($ctrl.getMaxThreads())">{{ i + 1 }}</md-option>
+              </md-select> / {{ $ctrl.cores }}
+            </span>
+          </div>
+          <div layout="row" layout-align="space-between center">
+            <span><span translate="MEMORY_USAGE_FOR_COMPRESSING">Memory usage for Compressing</span>:</span>
+            <span>{{ $ctrl.getMemoryUsage()[0] }} M</span>
+          </div>
+          <div layout="row" layout-align="space-between center">
+            <span><span translate="MEMORY_USAGE_FOR_DECOMPRESSING">Memory usage for Decompressing</span>:</span>
+            <span>{{ $ctrl.getMemoryUsage()[1] }} M</span>
+          </div>
+          <form name="splitToVolumeForm" layout="row">
+            <md-input-container class="md-block" flex>
+              <label><span translate="SPLIT_TO_VOLUME_BYTES">Split to volume, bytes</span>:</label>
+              <input name="splitToVolume" ng-model="$ctrl.splitToVolume" ng-pattern="$ctrl.splitToVolumeRegex" ng-blur="$ctrl.splitToVolumeBlur()">
+              <div ng-messages="splitToVolumeForm.splitToVolume.$error">
+                <div ng-message="pattern" translate="SPLIT_TO_VOLUME_FORMAT">Expected format: {Size}[b | k | m | g]</div>
+              </div>
+            </md-input-container>
+            <md-menu md-position-mode="target-right target" class="drop-down">
+              <md-button aria-label="Open split to volume menu" class="md-icon-button" ng-click="$mdMenu.open($event)">
+                <span class="btn"></span>
+              </md-button>
+              <md-menu-content width="4">
+                <md-menu-item ng-repeat="option in $ctrl.splitToVolumeOptions">
+                  <md-button ng-click="$ctrl.splitToVolume = option">
+                    <div layout="row" flex>
+                      <p flex>{{ option }}</p>
+                    </div>
+                  </md-button>
+                </md-menu-item>
+              </md-menu-content>
+            </md-menu>
+          </form>
+          <div ng-show="$ctrl._.includes(['tar', 'wim'], $ctrl.archiveFormat)">
+            <fieldset>
+              <legend translate="NTFS_TITLE">NTFS</legend>
+              <md-checkbox ng-model="$ctrl.storeSymbolicLinks" class="md-primary" aria-label="Store symbolic links">
+                <span translate="NTFS.STORE_SYMBOLIC_LINKS">Store symbolic links</span>
+              </md-checkbox>
+              <md-checkbox ng-model="$ctrl.storeHardLinks" class="md-primary" aria-label="Store hard links">
+                <span translate="NTFS.STORE_HARD_LINKS">Store hard links</span>
+              </md-checkbox>
+              <md-checkbox ng-model="$ctrl.storeAlternateDataStreams" ng-show="$ctrl.archiveFormat === 'wim'" class="md-primary" aria-label="Store alternate data streams">
+                <span translate="NTFS.STORE_ALTERNATE_DATA_STREAMS">Store alternate data streams</span>
+              </md-checkbox>
+              <md-checkbox ng-model="$ctrl.storeFileSecurity" ng-show="$ctrl.archiveFormat === 'wim'" class="md-primary" aria-label="Store file security">
+                <span translate="NTFS.STORE_FILE_SECURITY">Store file security</span>
+              </md-checkbox>
+            </fieldset>
+          </div>
+        </div>
+        <div flex-gt-xs="50" class="md-padding right-panel">
+          <div layout="row" layout-align="space-between center">
+            <span><span translate="UPDATE_MODE">Update mode</span>:</span>
+            <md-select ng-model="$ctrl.updateMode" class="md-no-underline" aria-label="Update mode">
+              <md-option ng-value="key" ng-repeat="(key, id) in ::$ctrl.updateModes">{{ id | translate }}</md-option>
+            </md-select>
+          </div>
+          <div layout="row" layout-align="space-between center">
+            <span><span translate="PATH_MODE">Path mode</span>:</span>
+            <md-select ng-model="$ctrl.pathMode" class="md-no-underline" aria-label="Path mode">
+              <md-option ng-value="key" ng-repeat="(key, id) in ::$ctrl.pathModes">{{ id | translate }}</md-option>
+            </md-select>
+          </div>
+          <fieldset>
+            <legend translate="OPTIONS_TITLE">Options</legend>
+            <md-checkbox ng-model="$ctrl.sfxArchive" ng-disabled="$ctrl.archiveFormat !== '7z'" class="md-primary" aria-label="Create SFX archive">
+              <span translate="OPTIONS.CREATE_SFX_ARCHIVE">Create SFX archive</span>
+            </md-checkbox>
+            <md-checkbox ng-model="$ctrl.compressSharedFiles" class="md-primary" aria-label="Compress shared files">
+              <span translate="OPTIONS.COMPRESS_SHARED_FILES">Compress shared files</span>
+            </md-checkbox>
+            <md-checkbox ng-model="$ctrl.deleteFilesAfter" class="md-primary" aria-label="Delete files after compression">
+              <span translate="OPTIONS.DELETE_FILES_AFTER_COMPRESSION">Delete files after compression</span>
+            </md-checkbox>
+          </fieldset>
+          <fieldset ng-disabled="!$ctrl._.includes(['7z', 'zip'], $ctrl.archiveFormat)">
+            <legend translate="ENCRYPTION_TITLE">Encryption</legend>
+            <div layout="row" layout-align="space-between center">
+              <md-input-container class="md-block" flex-gt-sm>
+                <label><span translate="ENCRYPTION.ENTER_PASSWORD">Enter password</span>:</label> <input ng-model="$ctrl.password" ng-change="$ctrl.passwordChanged()">
+              </md-input-container>
+            </div>
+            <div layout="row" layout-align="space-between center">
+              <span><span translate="ENCRYPTION.ENCRYPTION_METHOD">Encryption method</span>:</span>
+              <md-select ng-model="$ctrl.encryptionMethod" ng-change="$ctrl.encryptionMethodChanged()" class="md-no-underline" aria-label="Encryption method">
+                <md-option ng-value="option.value" ng-repeat="option in $ctrl.encryptionMethods">{{ option.name }}</md-option>
+              </md-select>
+            </div>
+            <md-checkbox ng-model="$ctrl.encryptFileNames" ng-disabled="$ctrl.archiveFormat !== '7z'" class="md-primary" aria-label="Encrypt file names">
+              <span translate="ENCRYPTION.ENCRYPT_FILE_NAMES">Encrypt file names</span>
+            </md-checkbox>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <div flex hide show-gt-sm></div>
+  </div>
+</div>

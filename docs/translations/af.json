@@ -1,0 +1,38 @@
+{
+  "ARCHIVE_FORMAT": "Argiefformaat",
+  "COMPRESSION_LEVEL": "Saampersingvlak",
+  "COMPRESSION_LEVELS": {
+    "0": "Stoor",
+    "1": "Vinnigste",
+    "3": "Vinnig",
+    "5": "Normaal",
+    "7": "Maksimum"
+  },
+  "COMPRESSION_METHOD": "Saampersmetode",
+  "DICTIONARY_SIZE": "Woordeboekgrootte",
+  "WORD_SIZE": "Woordgrootte",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Geheuegebruik vir saampersing",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Geheuegebruik vir uitpakking",
+  "SPLIT_TO_VOLUME_BYTES": "Verdeel in volumes, aantal grepe",
+  "UPDATE_MODE": "Bywerkwyse",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Lêers byvoeg en vervang",
+    "UPDATE_AND_ADD_FILES": "Lêers bywerk en byvoeg",
+    "FRESHEN_EXISTING_FILES": "Verfris bestaande lêers",
+    "SYNCHRONIZE_FILES": "Sinkroniseer lêers"
+  },
+  "PATH_MODE": "Pad-metode",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Volledige padname"
+  },
+  "OPTIONS_TITLE": "Opsies",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Maak SFX argief"
+  },
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Tik wagwoord in",
+    "ENCRYPT_FILE_NAMES": "Enkripteer lêername"
+  },
+  "SETTINGS": "Instellings",
+  "LANGUAGE": "Taal"
+}

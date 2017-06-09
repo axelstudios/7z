@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css');
+@import "~angular-material/angular-material";
+
+* {
+  user-select: none;
+}
+
+md-checkbox {
+  display: block;
+}
+
+md-select {
+  margin: 5px 0;
+}
+
+fieldset md-input-container {
+  margin: 0;
+}
+
+fieldset {
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+div.bordered {
+  border: 1px solid;
+}
+
+span > md-select {
+  display: inline-block;
+}
+
+.form-wrapper {
+  background: #fff;
+  padding: 16px;
+
+  .form-title {
+    &, .md-button {
+      font-size: 23px;
+    }
+
+    padding: 4px 0 8px 14px;
+  }
+}
+
+.close-icon {
+  font-size: 20px;
+}
+
+[disabled] {
+  opacity: 0.6;
+  pointer-events: none;
+
+  [disabled] {
+    opacity: 1;
+  }
+}
+
+#output {
+  font-family: 'Hack', monospace;
+  min-height: 96px;
+  line-height: 2em;
+  padding: 32px;
+  > span {
+    user-select: text;
+  }
+}
+
+#fork-banner {
+  > img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+  }
+}
+
+.left-panel {
+  > div {
+    min-height: 40px;
+  }
+
+  md-input-container {
+    margin-bottom: 0;
+  }
+}
+
+.drop-down {
+  margin: 18px 0;
+
+  .md-button.md-icon-button {
+    margin: 0;
+    padding: 8px 4px 8px 4px;
+  }
+
+  span.btn:after {
+    color: rgba(0, 0, 0, 0.54);
+    display: block;
+    content: '\25BC';
+    position: relative;
+    top: 2px;
+    font-size: 13px;
+    transform: scaleY(0.5) scaleX(1);
+  }
+}
+
+#settings {
+  md-dialog-content {
+    min-width: 400px;
+  }
+}
+
+// Padding helpers
+// Multiples of 5, max:100
+@for $i from 0 through 20 {
+
+  .padding-#{$i * 5},
+  .p-#{$i * 5} {
+    padding: #{($i * 5) + 'px'};
+  }
+
+  .padding-top-#{$i * 5},
+  .pt-#{$i * 5} {
+    padding-top: #{($i * 5) + 'px'};
+  }
+
+  .padding-right-#{$i * 5},
+  .pr-#{$i * 5} {
+    padding-right: #{($i * 5) + 'px'};
+  }
+
+  .padding-bottom-#{$i * 5},
+  .pb-#{$i * 5} {
+    padding-bottom: #{($i * 5) + 'px'};
+  }
+
+  .padding-left-#{$i * 5},
+  .pl-#{$i * 5} {
+    padding-left: #{($i * 5) + 'px'};
+  }
+
+  .padding-horizontal-#{$i * 5},
+  .ph-#{$i * 5} {
+    padding-left: #{($i * 5) + 'px'};
+    padding-right: #{($i * 5) + 'px'};
+  }
+
+  .padding-vertical-#{$i * 5},
+  .pv-#{$i * 5} {
+    padding-top: #{($i * 5) + 'px'};
+    padding-bottom: #{($i * 5) + 'px'};
+  }
+}
+
+// Multiples of 8, Max: 96, Excluding 0 and multiples of 5
+@for $i from 1 through 12 {
+
+  @if (($i * 8) % 5 != 0) {
+
+    .padding-#{$i * 8},
+    .p-#{$i * 8} {
+      padding: #{($i * 8) + 'px'};
+    }
+
+    .padding-top-#{$i * 8},
+    .pt-#{$i * 8} {
+      padding-top: #{($i * 8) + 'px'};
+    }
+
+    .padding-right-#{$i * 8},
+    .pr-#{$i * 8} {
+      padding-right: #{($i * 8) + 'px'};
+    }
+
+    .padding-bottom-#{$i * 8},
+    .pb-#{$i * 8} {
+      padding-bottom: #{($i * 8) + 'px'};
+    }
+
+    .padding-left-#{$i * 8},
+    .pl-#{$i * 8} {
+      padding-left: #{($i * 8) + 'px'};
+    }
+
+    .padding-horizontal-#{$i * 8},
+    .ph-#{$i * 8} {
+      padding-left: #{($i * 8) + 'px'};
+      padding-right: #{($i * 8) + 'px'};
+    }
+
+    .padding-vertical-#{$i * 8},
+    .pv-#{$i * 8} {
+      padding-top: #{($i * 8) + 'px'};
+      padding-bottom: #{($i * 8) + 'px'};
+    }
+  }
+}
+
+// Margin helpers
+// Multiples of 5, max:100
+@for $i from 0 through 20 {
+
+  .margin-#{$i * 5},
+  .m-#{$i * 5} {
+    margin: #{($i * 5) + 'px'};
+  }
+
+  .margin-top-#{$i * 5},
+  .mt-#{$i * 5} {
+    margin-top: #{($i * 5) + 'px'};
+  }
+
+  .margin-right-#{$i * 5},
+  .mr-#{$i * 5} {
+    margin-right: #{($i * 5) + 'px'};
+  }
+
+  .margin-bottom-#{$i * 5},
+  .mb-#{$i * 5} {
+    margin-bottom: #{($i * 5) + 'px'};
+  }
+
+  .margin-left-#{$i * 5},
+  .ml-#{$i * 5} {
+    margin-left: #{($i * 5) + 'px'};
+  }
+
+  .margin-horizontal-#{$i * 5},
+  .mh-#{$i * 5} {
+    margin-left: #{($i * 5) + 'px'};
+    margin-right: #{($i * 5) + 'px'};
+  }
+
+  .margin-vertical-#{$i * 5},
+  .mv-#{$i * 5} {
+    margin-top: #{($i * 5) + 'px'};
+    margin-bottom: #{($i * 5) + 'px'};
+  }
+}
+
+// Multiples of 8, Max: 96, Excluding 0 and multiples of 5
+@for $i from 1 through 12 {
+
+  @if (($i * 8) % 5 != 0) {
+
+    .margin-#{$i * 8},
+    .m-#{$i * 8} {
+      margin: #{($i * 8) + 'px'};
+    }
+
+    .margin-top-#{$i * 8},
+    .mt-#{$i * 8} {
+      margin-top: #{($i * 8) + 'px'};
+    }
+
+    .margin-right-#{$i * 8},
+    .mr-#{$i * 8} {
+      margin-right: #{($i * 8) + 'px'};
+    }
+
+    .margin-bottom-#{$i * 8},
+    .mb-#{$i * 8} {
+      margin-bottom: #{($i * 8) + 'px'};
+    }
+
+    .margin-left-#{$i * 8},
+    .ml-#{$i * 8} {
+      margin-left: #{($i * 8) + 'px'};
+    }
+
+    .margin-horizontal-#{$i * 8},
+    .mh-#{$i * 8} {
+      margin-left: #{($i * 8) + 'px'};
+      margin-right: #{($i * 8) + 'px'};
+    }
+
+    .margin-vertical-#{$i * 8},
+    .mv-#{$i * 8} {
+      margin-top: #{($i * 8) + 'px'};
+      margin-bottom: #{($i * 8) + 'px'};
+    }
+  }
+}
+
+// Height and width helpers
+// Multiples of 5, Max: 500
+@for $i from 0 through 100 {
+
+  .height-#{$i * 5},
+  .h-#{$i * 5} {
+    height: #{($i * 5) + 'px'} !important;
+    min-height: #{($i * 5) + 'px'} !important;
+    max-height: #{($i * 5) + 'px'} !important;
+  }
+
+  .width-#{$i * 5},
+  .w-#{$i * 5} {
+    width: #{($i * 5) + 'px'} !important;
+    min-width: #{($i * 5) + 'px'} !important;
+    max-width: #{($i * 5) + 'px'} !important;
+  }
+}
+
+// Height and width helpers
+// Multiples of 8, Max: 800, Excluding 0 and multiples of 5
+@for $i from 1 through 100 {
+
+  @if (($i * 8) % 5 != 0) {
+
+    .height-#{$i * 8},
+    .h-#{$i * 8} {
+      height: #{($i * 8) + 'px'} !important;
+      min-height: #{($i * 8) + 'px'} !important;
+      max-height: #{($i * 8) + 'px'} !important;
+    }
+
+    .width-#{$i * 8},
+    .w-#{$i * 8} {
+      width: #{($i * 8) + 'px'} !important;
+      min-width: #{($i * 8) + 'px'} !important;
+      max-width: #{($i * 8) + 'px'} !important;
+    }
+  }
+}
+
+// Border helpers
+$border-style: 1px solid rgba(0, 0, 0, 0.12);
+
+.border,
+.b {
+  border: $border-style;
+}
+
+.border-top,
+.bt {
+  border-top: $border-style;
+}
+
+.border-right,
+.br {
+  border-right: $border-style;
+}
+
+.border-bottom,
+.bb {
+  border-bottom: $border-style;
+}
+
+.border-left,
+.bl {
+  border-left: $border-style;
+}
+
+.border-horizontal,
+.bh {
+  border-left: $border-style;
+  border-right: $border-style;
+}
+
+.border-vertical,
+.bv {
+  border-top: $border-style;
+  border-bottom: $border-style;
+}
+
+// Border-radius helpers
+@for $i from 1 through 12 {
+
+  .brad-#{$i} {
+    border-radius: #{$i + 'px'}
+  }
+}

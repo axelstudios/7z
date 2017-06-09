@@ -1,0 +1,59 @@
+{
+  "ARCHIVE_FORMAT": "壓縮檔格式",
+  "COMPRESSION_LEVEL": "壓縮層級",
+  "COMPRESSION_LEVELS": {
+    "0": "封存",
+    "1": "最快速壓縮",
+    "3": "快速壓縮",
+    "5": "一般壓縮",
+    "7": "最大壓縮",
+    "9": "極致壓縮"
+  },
+  "COMPRESSION_METHOD": "壓縮方式",
+  "DICTIONARY_SIZE": "字典大小",
+  "WORD_SIZE": "字組大小",
+  "SOLID_BLOCK_SIZE": "結實區塊大小",
+  "SOLID_BLOCK_SIZES": {
+    "off": "非結實",
+    "on": "結實"
+  },
+  "NUMBER_OF_CPU_THREADS": "CPU 線程數",
+  "MEMORY_USAGE_FOR_COMPRESSING": "壓縮時記憶體使用",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "解壓縮時記憶體使用",
+  "SPLIT_TO_VOLUME_BYTES": "分割壓縮檔，位元組",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "儲存符號連結",
+    "STORE_HARD_LINKS": "儲存硬連結",
+    "STORE_ALTERNATE_DATA_STREAMS": "儲存附加資料流",
+    "STORE_FILE_SECURITY": "儲存檔案安全設定"
+  },
+  "UPDATE_MODE": "更新模式",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "加入並取代檔案",
+    "UPDATE_AND_ADD_FILES": "更新並加入檔案",
+    "FRESHEN_EXISTING_FILES": "更新現有的檔案",
+    "SYNCHRONIZE_FILES": "同步處理檔案"
+  },
+  "PATH_MODE": "路徑模式",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "相對路徑",
+    "FULL_PATHNAMES": "完整的路徑名稱",
+    "ABSOLUTE_PATHNAMES": "絕對路徑"
+  },
+  "OPTIONS_TITLE": "選項",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "建立自解壓縮檔",
+    "COMPRESS_SHARED_FILES": "壓縮共用檔案",
+    "DELETE_FILES_AFTER_COMPRESSION": "壓縮後刪除檔案"
+  },
+  "ENCRYPTION_TITLE": "加密",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "輸入密碼",
+    "ENCRYPTION_METHOD": "加密方法",
+    "ENCRYPT_FILE_NAMES": "加密檔名"
+  },
+  "SETTINGS": "設定",
+  "LANGUAGE": "語言",
+  "OK": "確定",
+  "CANCEL": "取消"
+}

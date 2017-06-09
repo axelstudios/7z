@@ -1,0 +1,55 @@
+{
+  "ARCHIVE_FORMAT": "Arkivformat",
+  "COMPRESSION_LEVEL": "Komprimeringsniveau",
+  "COMPRESSION_LEVELS": {
+    "0": "Gem",
+    "1": "Hurtigst",
+    "3": "Hurtig",
+    "7": "Maksimum"
+  },
+  "COMPRESSION_METHOD": "Komprimeringsmetode",
+  "DICTIONARY_SIZE": "Størrelse på ordbog",
+  "WORD_SIZE": "Størrelse på ord",
+  "SOLID_BLOCK_SIZE": "Størrelse på solid blok",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Ikke-solid"
+  },
+  "NUMBER_OF_CPU_THREADS": "Antal CPU-tråde",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Hukommelsesforbrug ved komprimering",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Hukommelsesforbrug ved udpakning",
+  "SPLIT_TO_VOLUME_BYTES": "Opdel i bind, byte",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "Opbevar symbolske henvisninger",
+    "STORE_HARD_LINKS": "Opbevar hårde henvisninger",
+    "STORE_ALTERNATE_DATA_STREAMS": "Opbevar alternative datastrømme",
+    "STORE_FILE_SECURITY": "Opbevar filsikkerhed"
+  },
+  "UPDATE_MODE": "Opdateringstilstand",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Tilføj og erstat filer",
+    "UPDATE_AND_ADD_FILES": "Opdater og tilføj filer",
+    "FRESHEN_EXISTING_FILES": "Opdater eksisterende filer",
+    "SYNCHRONIZE_FILES": "Synkroniser filer"
+  },
+  "PATH_MODE": "Stitilstand",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "Relative stinavne",
+    "FULL_PATHNAMES": "Fulde stinavne",
+    "ABSOLUTE_PATHNAMES": "Absolutte stinavne"
+  },
+  "OPTIONS_TITLE": "Funktioner",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Opret SFX-arkiv",
+    "COMPRESS_SHARED_FILES": "Komprimer delte filer",
+    "DELETE_FILES_AFTER_COMPRESSION": "Slet filer efter komprimering"
+  },
+  "ENCRYPTION_TITLE": "Kryptering",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Indtast adgangskode",
+    "ENCRYPTION_METHOD": "Krypteringsmetode",
+    "ENCRYPT_FILE_NAMES": "Krypter filnavne"
+  },
+  "SETTINGS": "Indstillinger",
+  "LANGUAGE": "Sprog",
+  "CANCEL": "Annuller"
+}

@@ -1,0 +1,58 @@
+{
+  "ARCHIVE_FORMAT": "書庫形式",
+  "COMPRESSION_LEVEL": "圧縮レベル",
+  "COMPRESSION_LEVELS": {
+    "0": "無圧縮",
+    "1": "最速",
+    "3": "高速",
+    "5": "標準",
+    "7": "最高",
+    "9": "超圧縮"
+  },
+  "COMPRESSION_METHOD": "圧縮方式",
+  "DICTIONARY_SIZE": "辞書サイズ",
+  "WORD_SIZE": "ワードサイズ",
+  "SOLID_BLOCK_SIZE": "ソリッドブロックサイズ",
+  "SOLID_BLOCK_SIZES": {
+    "off": "ソリッドなし",
+    "on": "無制限"
+  },
+  "NUMBER_OF_CPU_THREADS": "CPUスレッド数",
+  "MEMORY_USAGE_FOR_COMPRESSING": "圧縮に必要なメモリ",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "展開に必要なメモリ",
+  "SPLIT_TO_VOLUME_BYTES": "書庫をサイズで分割",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "シンボリックリンクを保存",
+    "STORE_HARD_LINKS": "ハードリンクを保存",
+    "STORE_ALTERNATE_DATA_STREAMS": "代替データストリームを保存",
+    "STORE_FILE_SECURITY": "ファイルのセキュリティ属性を保存"
+  },
+  "UPDATE_MODE": "更新方法",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "すべてのファイル上書き",
+    "UPDATE_AND_ADD_FILES": "ファイル追加と更新",
+    "FRESHEN_EXISTING_FILES": "変更したファイルのみ更新",
+    "SYNCHRONIZE_FILES": "ファイルを同期させる"
+  },
+  "PATH_MODE": "パス名出力方法",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "相対パス",
+    "FULL_PATHNAMES": "フルパス",
+    "ABSOLUTE_PATHNAMES": "絶対パス"
+  },
+  "OPTIONS_TITLE": "オプション",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "自己展開書庫作成",
+    "COMPRESS_SHARED_FILES": "共有（編集中の）ファイルも圧縮",
+    "DELETE_FILES_AFTER_COMPRESSION": "圧縮後に元のファイルを削除"
+  },
+  "ENCRYPTION_TITLE": "暗号化",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "パスワード入力",
+    "ENCRYPTION_METHOD": "暗号化方式",
+    "ENCRYPT_FILE_NAMES": "ファイル名を暗号化"
+  },
+  "SETTINGS": "設定",
+  "LANGUAGE": "言語",
+  "CANCEL": "キャンセル"
+}
