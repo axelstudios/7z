@@ -1,0 +1,58 @@
+{
+  "ARCHIVE_FORMAT": "&Format arhiva:",
+  "COMPRESSION_LEVEL": "Stupanj sažimanja",
+  "COMPRESSION_LEVELS": {
+    "0": "Bez sažimanja",
+    "1": "Vrlo brzo",
+    "3": "Brzo",
+    "5": "Uobičajeno",
+    "7": "Najjače"
+  },
+  "COMPRESSION_METHOD": "&Metoda sažimanja:",
+  "DICTIONARY_SIZE": "Veličina &rječnika:",
+  "WORD_SIZE": "&Veličina riječi:",
+  "SOLID_BLOCK_SIZE": "Veličina bloka u zbijenom:",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Bez-zbijanja",
+    "on": "Zbijeno"
+  },
+  "NUMBER_OF_CPU_THREADS": "Broj niti u CPU:",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Korištenje memorije za sažimanje:",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Korištenje memorije za raspakiranje:",
+  "SPLIT_TO_VOLUME_BYTES": "Razdvajanje na dijelove, bajta:",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "Spremi simbolične poveznice",
+    "STORE_HARD_LINKS": "Spremi čvrste poveznice",
+    "STORE_ALTERNATE_DATA_STREAMS": "Spremi alternativne tokove podataka",
+    "STORE_FILE_SECURITY": "Spremi sigurnost datoteka"
+  },
+  "UPDATE_MODE": "&Način obnove:",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Dodaj i zamjeni datoteke",
+    "UPDATE_AND_ADD_FILES": "Obnovi i dodaj datoteke",
+    "FRESHEN_EXISTING_FILES": "Osvježi postojeće datoteke",
+    "SYNCHRONIZE_FILES": "Sinkroniziraj datoteke"
+  },
+  "PATH_MODE": "Putanja mapa:",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "Relativne putanje",
+    "FULL_PATHNAMES": "Potpune putanje",
+    "ABSOLUTE_PATHNAMES": "Apsolutne putanje"
+  },
+  "OPTIONS_TITLE": "&Mogućnosti",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Kreiraj E&XE arhiv",
+    "COMPRESS_SHARED_FILES": "Sažmi dijeljene datoteke",
+    "DELETE_FILES_AFTER_COMPRESSION": "Obriši datoteke nakon kompresije"
+  },
+  "ENCRYPTION_TITLE": "Kriptiranje",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Unesite lozinku:",
+    "ENCRYPTION_METHOD": "Metoda kriptiranja:",
+    "ENCRYPT_FILE_NAMES": "Enkripcija naziva datoteka"
+  },
+  "SETTINGS": "Postavke",
+  "LANGUAGE": "Jezik",
+  "OK": "U redu",
+  "CANCEL": "Odustani"
+}

@@ -1,0 +1,49 @@
+{
+  "ARCHIVE_FORMAT": "Архивдин форматы",
+  "COMPRESSION_LEVEL": "Кысуунун деңгээли",
+  "COMPRESSION_LEVELS": {
+    "0": "Кысуусуз",
+    "1": "Ылдамдуу",
+    "3": "Бат",
+    "5": "Кадимкидей",
+    "7": "Ээң жогорку",
+    "9": "Ультра"
+  },
+  "COMPRESSION_METHOD": "Кысуунун амалы",
+  "DICTIONARY_SIZE": "Сөздүктүн көлөмү",
+  "WORD_SIZE": "Сөздүн көлөмү",
+  "SOLID_BLOCK_SIZE": "Блоктун көлөмү",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Файлдын көлөмүндөй",
+    "on": "Үзгүлтүксүз"
+  },
+  "NUMBER_OF_CPU_THREADS": "Агымдардын саны",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Салып бекитүү үчүн эстин көлөмү",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Таңгагын чечүү үчүн эстин көломү",
+  "SPLIT_TO_VOLUME_BYTES": "(байт) көлөмү менен томдорго бөлүштүрүү",
+  "UPDATE_MODE": "Өзгөртүүнүн режими",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Кошуп жана алмаштыруу",
+    "UPDATE_AND_ADD_FILES": "Жаңыртып жана кошуу",
+    "FRESHEN_EXISTING_FILES": "Жаңыртуу",
+    "SYNCHRONIZE_FILES": "Калптандыруу"
+  },
+  "PATH_MODE": "Жолдор",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Толук жолдор"
+  },
+  "OPTIONS_TITLE": "Оңдоп-түздөмөлөр",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "SFX-архивди жаратуу",
+    "COMPRESS_SHARED_FILES": "Файлдарды жаздыруу үчүн ачууну кысуу"
+  },
+  "ENCRYPTION_TITLE": "Шифрлөө",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Купуя-белгини киргизиңиз",
+    "ENCRYPTION_METHOD": "Шифрлөөнүн амалы",
+    "ENCRYPT_FILE_NAMES": "Файлдардын атын шифрлөө"
+  },
+  "SETTINGS": "Оңдоп-түздөмөлөр",
+  "LANGUAGE": "Тил",
+  "CANCEL": "Айнуу"
+}

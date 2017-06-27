@@ -1,0 +1,50 @@
+{
+  "ARCHIVE_FORMAT": "&פורמט הארכיון:",
+  "COMPRESSION_LEVEL": "רמת &דחיסה:",
+  "COMPRESSION_LEVELS": {
+    "0": "אחסון",
+    "1": "הכי מהירה",
+    "3": "מהירה",
+    "5": "רגילה",
+    "7": "מקסימאלית",
+    "9": "אולטרה"
+  },
+  "COMPRESSION_METHOD": "&שיטת דחיסה:",
+  "DICTIONARY_SIZE": "גודל מי&לון:",
+  "WORD_SIZE": "גודל &מילה:",
+  "SOLID_BLOCK_SIZE": "גודל קטע רצוף:",
+  "SOLID_BLOCK_SIZES": {
+    "off": "לא רצוף",
+    "on": "רצוף"
+  },
+  "NUMBER_OF_CPU_THREADS": "כמות הליכי מעבד/מערכת:",
+  "MEMORY_USAGE_FOR_COMPRESSING": "זיכרון הדרוש לדחיסה:",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "זיכרון הדרוש לחילוץ:",
+  "SPLIT_TO_VOLUME_BYTES": "פצל לחלקים, בתים:",
+  "UPDATE_MODE": "מצב &עדכון:",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "הוסף והחלף קבצים",
+    "UPDATE_AND_ADD_FILES": "עדכן והוסף קבצים",
+    "FRESHEN_EXISTING_FILES": "רענן קבצים קיימים",
+    "SYNCHRONIZE_FILES": "סנכרן קבצים"
+  },
+  "PATH_MODE": "שיטת הנתיבים",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "נתיבים מלאים"
+  },
+  "OPTIONS_TITLE": "אפשרויות",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "צור ארכיון &חילוץ-עצמי",
+    "COMPRESS_SHARED_FILES": "דחוס קבצים שבשיתוף"
+  },
+  "ENCRYPTION_TITLE": "הצפנה",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "הכנס סיסמא:",
+    "ENCRYPTION_METHOD": "שיטת הצפנה:",
+    "ENCRYPT_FILE_NAMES": "&קדד שמות קבצים"
+  },
+  "SETTINGS": "הגדרות",
+  "LANGUAGE": "Language / שפה",
+  "OK": "אישור",
+  "CANCEL": "ביטול"
+}

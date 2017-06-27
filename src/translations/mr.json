@@ -1,0 +1,41 @@
+{
+  "ARCHIVE_FORMAT": "दफ़तर प्रकार",
+  "COMPRESSION_LEVEL": "दाब level",
+  "COMPRESSION_LEVELS": {
+    "0": "साठा",
+    "1": "अतिशय वेगवान",
+    "3": "वेगवान",
+    "5": "साधारण",
+    "7": "जास्तीत जास्त",
+    "9": "एकदमच"
+  },
+  "COMPRESSION_METHOD": "दाब पद्धत",
+  "DICTIONARY_SIZE": "शब्द्कोश आकार",
+  "WORD_SIZE": "शब्द आकार",
+  "MEMORY_USAGE_FOR_COMPRESSING": "दाबण्यासाठी स्मरणशक्तीचा वापर",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "प्रसरण पावण्यासाठी स्मरणशक्तीचा वापर",
+  "SPLIT_TO_VOLUME_BYTES": "तुकडे, बाइट्स",
+  "UPDATE_MODE": "नुतनीकरन रित",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "फ़ाइल टाका आणि ठेवा",
+    "UPDATE_AND_ADD_FILES": "फ़ाइल टाका आणि नुतन करा",
+    "FRESHEN_EXISTING_FILES": "अस्तित्वातील फ़ाइल ताजे करा",
+    "SYNCHRONIZE_FILES": "Synchronize फ़ाइल"
+  },
+  "PATH_MODE": "मार्ग रित",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "पूर्ण पत्ता"
+  },
+  "OPTIONS_TITLE": "पर्याय",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "SFX दफ़तर तयार करा"
+  },
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "परवलिचा शब्द टाका",
+    "ENCRYPT_FILE_NAMES": "फ़ाइल नाव बंधिस्त करा"
+  },
+  "SETTINGS": "स्थिती",
+  "LANGUAGE": "भाषा",
+  "OK": "ठीक",
+  "CANCEL": "रद्द"
+}

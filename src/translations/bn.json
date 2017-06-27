@@ -1,0 +1,43 @@
+{
+  "ARCHIVE_FORMAT": "সংকোচনের  পরিচয়",
+  "COMPRESSION_LEVEL": "সংকোচনের পর্যায়",
+  "COMPRESSION_LEVELS": {
+    "0": "অতি সংকোচায়ন",
+    "1": "অতি দ্রুত",
+    "3": "দ্রুত",
+    "5": "সাধারন",
+    "7": "সর্ব্বোচ্চ",
+    "9": "পলকের গতি"
+  },
+  "COMPRESSION_METHOD": "সংকোচন পদ্ধতি",
+  "NUMBER_OF_CPU_THREADS": "CPU-এর thread-এর সংখ্যা",
+  "MEMORY_USAGE_FOR_COMPRESSING": "সংকোচনের জন্য স্মৃতির ব্যবহার",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "সম্প্রসারনের জন্য স্মৃতির ব্যবহার",
+  "SPLIT_TO_VOLUME_BYTES": "volumes(খন্ডে), bytes(বাইটস)-এ খন্ডায়নঃ",
+  "UPDATE_MODE": "পরিমার্জন পদ্ধতি",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "সংকোচন ও ফাইল প্রতিস্থাপন",
+    "UPDATE_AND_ADD_FILES": "পরিমার্জন ও ফাইল প্রতিস্থাপন",
+    "FRESHEN_EXISTING_FILES": "উল্লেখিত ফাইলে সতেজতা প্রদান",
+    "SYNCHRONIZE_FILES": "ফাইল সাজিয়ে রাখা"
+  },
+  "PATH_MODE": "ঠিকানা নির্বাচন পদ্ধতি",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "পূর্ণ ঠিকানাসমূহ"
+  },
+  "OPTIONS_TITLE": "পছন্দনীয়",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "স্বয়ংক্রিয় সংকোচন প্রোগ্রাম তৈরি",
+    "COMPRESS_SHARED_FILES": "বিনিময়যোগ্য ফাইল সংকোচন"
+  },
+  "ENCRYPTION_TITLE": "বদ্ধ করা",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "পাসওয়ার্ডটি প্রবেশ করুনঃ",
+    "ENCRYPTION_METHOD": "বদ্ধ করার পদ্ধতি",
+    "ENCRYPT_FILE_NAMES": "ফাইলের নাম আটকে ফেলা"
+  },
+  "SETTINGS": "পছন্দগুলো",
+  "LANGUAGE": "ভাষা",
+  "OK": "ঠিক আছে",
+  "CANCEL": "বাতিল"
+}

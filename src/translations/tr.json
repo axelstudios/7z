@@ -1,0 +1,48 @@
+{
+  "ARCHIVE_FORMAT": "Arşiv biçimi",
+  "COMPRESSION_LEVEL": "Sıkıştırma düzeyi",
+  "COMPRESSION_LEVELS": {
+    "0": "Sıkıştırmasız",
+    "1": "En hızlı",
+    "3": "Hızlı",
+    "7": "Maksimum"
+  },
+  "COMPRESSION_METHOD": "Sıkıştırma şekli",
+  "DICTIONARY_SIZE": "Sözlük boyutu",
+  "WORD_SIZE": "Kelime boyutu",
+  "SOLID_BLOCK_SIZE": "Aralıksız blok boyutu",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Aralıklı",
+    "on": "Aralıksız"
+  },
+  "NUMBER_OF_CPU_THREADS": "İşlemci iş parçası sayısı",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Bellek kullanımı (Sıkıştırma)",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Bellek kullanımı (Çözme)",
+  "SPLIT_TO_VOLUME_BYTES": "Bayt/cilt olarak parçala",
+  "UPDATE_MODE": "Güncelleme şekli",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Dosyaları ekle, olanları çıkart",
+    "UPDATE_AND_ADD_FILES": "Dosyaları ekle, eskileri güncelle",
+    "FRESHEN_EXISTING_FILES": "Sadece eskileri güncelle",
+    "SYNCHRONIZE_FILES": "Dosyaları eşitle"
+  },
+  "PATH_MODE": "Yol adları",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Tam yol adları"
+  },
+  "OPTIONS_TITLE": "Seçenekler",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Kendi çıkartsın (SFX)",
+    "COMPRESS_SHARED_FILES": "Paylaşılan dosyaları sıkıştır"
+  },
+  "ENCRYPTION_TITLE": "Şifreleme",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Parolayı girin",
+    "ENCRYPTION_METHOD": "Şifreleme metodu",
+    "ENCRYPT_FILE_NAMES": "Dosya adlarını şifrele"
+  },
+  "SETTINGS": "Ayarlar",
+  "LANGUAGE": "Dil",
+  "OK": "Tamam",
+  "CANCEL": "İptal"
+}

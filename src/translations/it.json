@@ -1,0 +1,57 @@
+{
+  "ARCHIVE_FORMAT": "Formato dell'archivio",
+  "COMPRESSION_LEVEL": "Livello di compressione",
+  "COMPRESSION_LEVELS": {
+    "0": "Memorizzazione",
+    "1": "Velocissima",
+    "3": "Veloce",
+    "5": "Normale",
+    "7": "Massima"
+  },
+  "COMPRESSION_METHOD": "Metodo di compressione",
+  "DICTIONARY_SIZE": "Dimensione Dizionario",
+  "WORD_SIZE": "Dimensioni Parola",
+  "SOLID_BLOCK_SIZE": "Dimensione del blocco solido",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Non solido",
+    "on": "Solido"
+  },
+  "NUMBER_OF_CPU_THREADS": "Numero di processi CPU",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Utilizzo della memoria per la compressione",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Utilizzo della memoria per ka decompressione",
+  "SPLIT_TO_VOLUME_BYTES": "Suddividi in porzioni (dimensione in byte)",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "Memorizza i links simbolici",
+    "STORE_HARD_LINKS": "Memorizza i links fissi",
+    "STORE_ALTERNATE_DATA_STREAMS": "Memorizza gli streams dati alternativi",
+    "STORE_FILE_SECURITY": "Memorizza la sicurezza dei files"
+  },
+  "UPDATE_MODE": "Modalità aggiornamento",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Aggiungi e sostituisci i files",
+    "UPDATE_AND_ADD_FILES": "Aggiorna ed aggiungi i files",
+    "FRESHEN_EXISTING_FILES": "Aggiorna i files esistenti",
+    "SYNCHRONIZE_FILES": "Sincronizza i files"
+  },
+  "PATH_MODE": "Struttura delle cartelle",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "Percorsi relativi",
+    "FULL_PATHNAMES": "Percorsi completi",
+    "ABSOLUTE_PATHNAMES": "Percorsi assoluti"
+  },
+  "OPTIONS_TITLE": "Opzioni",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Crea archivio auto-estraente",
+    "COMPRESS_SHARED_FILES": "Comprimi files condivisi",
+    "DELETE_FILES_AFTER_COMPRESSION": "Elimina i files dopo la compressione"
+  },
+  "ENCRYPTION_TITLE": "Crittografia",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Inserisci password",
+    "ENCRYPTION_METHOD": "Metodo crittografico",
+    "ENCRYPT_FILE_NAMES": "Crittografa i nomi dei files"
+  },
+  "SETTINGS": "Impostazioni",
+  "LANGUAGE": "Lingua",
+  "CANCEL": "Annulla"
+}

@@ -1,0 +1,49 @@
+{
+  "ARCHIVE_FORMAT": "არქივის ფორმატი",
+  "COMPRESSION_LEVEL": "შეკუმშვის დონე",
+  "COMPRESSION_LEVELS": {
+    "0": "შეკუმშვის გარეშე",
+    "1": "უსწრაფესი",
+    "3": "სწრაფი",
+    "5": "ჩვეულებრივი",
+    "7": "მაღალი",
+    "9": "უმაღლესი"
+  },
+  "COMPRESSION_METHOD": "შეკუმშვის მეთოდი",
+  "DICTIONARY_SIZE": "ლექსიკონის ზომა",
+  "WORD_SIZE": "სიტყვის ზომა",
+  "SOLID_BLOCK_SIZE": "უწყვეტი ბლოკის ზომა",
+  "SOLID_BLOCK_SIZES": {
+    "off": "წყვეტილი",
+    "on": "უწყვეტი"
+  },
+  "NUMBER_OF_CPU_THREADS": "CPU ნაკადების ოდენობა",
+  "MEMORY_USAGE_FOR_COMPRESSING": "მეხსიერება შეკუმშვისათვის",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "მეხსიერება ამოღებისათვის",
+  "SPLIT_TO_VOLUME_BYTES": "დაიყოს ტომებად, ზომით (ბაიტებში)",
+  "UPDATE_MODE": "განახლების რეჟიმი",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "ფაილთა დამატება და შეცვლა",
+    "UPDATE_AND_ADD_FILES": "ფაილთა განახლება და დამატება",
+    "FRESHEN_EXISTING_FILES": "ფაილთა განახლება",
+    "SYNCHRONIZE_FILES": "ფაილთა სინქრონიზება"
+  },
+  "PATH_MODE": "მდებარეობა",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "სრული მდებარეობა"
+  },
+  "OPTIONS_TITLE": "დამატებითი",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "შეიქმნას SFX არქივი",
+    "COMPRESS_SHARED_FILES": "გაზიარებული ფაილების შეკუმშვა"
+  },
+  "ENCRYPTION_TITLE": "დაშიფრვა",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "შეიყვანეთ პაროლი",
+    "ENCRYPTION_METHOD": "დაშიფრვის მეთოდი",
+    "ENCRYPT_FILE_NAMES": "ფაილთა სახელების დაშიფრვა"
+  },
+  "SETTINGS": "გამართვა",
+  "LANGUAGE": "ენები",
+  "CANCEL": "გაუქმება"
+}

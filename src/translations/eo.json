@@ -1,0 +1,40 @@
+{
+  "ARCHIVE_FORMAT": "Arĥivformato",
+  "COMPRESSION_LEVEL": "Densigonivelo",
+  "COMPRESSION_LEVELS": {
+    "0": "Sen densigo",
+    "1": "Plej rapide",
+    "3": "Rapide",
+    "5": "Normala densigo",
+    "7": "Maksimuma densigo"
+  },
+  "COMPRESSION_METHOD": "Densigmetodo",
+  "DICTIONARY_SIZE": "Vortarogrando",
+  "WORD_SIZE": "Vortogrando",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Memoruzo por densigo",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Memoruzo por maldensigo",
+  "SPLIT_TO_VOLUME_BYTES": "Plurvolumigu, bajtoj",
+  "UPDATE_MODE": "Anstataŭigreĝimo",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Aldonu kaj anstataŭigu dosierojn",
+    "UPDATE_AND_ADD_FILES": "Ĝisdatigu kaj aldonu dosierojn",
+    "FRESHEN_EXISTING_FILES": "Refreŝigu estantajn dosierojn",
+    "SYNCHRONIZE_FILES": "Sinkronigu dosierojn"
+  },
+  "PATH_MODE": "Dosierindikoj",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Absolutaj dosierindikoj"
+  },
+  "OPTIONS_TITLE": "Agordoj",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Kreu SFX-arĥivon"
+  },
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Enigu pasvorton",
+    "ENCRYPT_FILE_NAMES": "Ĉifru dosiernomojn"
+  },
+  "SETTINGS": "Agordoj",
+  "LANGUAGE": "Lingvo",
+  "OK": "Bone",
+  "CANCEL": "Nuligu"
+}

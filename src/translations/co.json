@@ -1,0 +1,57 @@
+{
+  "ARCHIVE_FORMAT": "Forma d'archiviu",
+  "COMPRESSION_LEVEL": "Livellu de cumpressione",
+  "COMPRESSION_LEVELS": {
+    "0": "Alcuna",
+    "1": "A più rapida",
+    "3": "Rapida",
+    "5": "Nurmale",
+    "7": "Massima"
+  },
+  "COMPRESSION_METHOD": "Metoda di cumpressione",
+  "DICTIONARY_SIZE": "Dimensione di u dizziunariu",
+  "WORD_SIZE": "Dimensione di e parolle",
+  "SOLID_BLOCK_SIZE": "Dimensione di u bloccu solidu",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Non-solidu",
+    "on": "Solidu"
+  },
+  "NUMBER_OF_CPU_THREADS": "Numeru di flussi CPU",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Memoria impiegata da a Cumpressione",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Memoria impiegata da a Scumpressione",
+  "SPLIT_TO_VOLUME_BYTES": "Sparte in vulumi, ottetti",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "Cunservà e leie simboliche",
+    "STORE_HARD_LINKS": "Cunservà e leie solide",
+    "STORE_ALTERNATE_DATA_STREAMS": "Cunservà i flussi di dati alternativi",
+    "STORE_FILE_SECURITY": "Cunservà a sicurità di i schedarii"
+  },
+  "UPDATE_MODE": "Modu di mudificazione",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Aghjunghje è rimpiazzà i schedarii",
+    "UPDATE_AND_ADD_FILES": "Mudificà è aghjunghje i schedarii",
+    "FRESHEN_EXISTING_FILES": "Attualizà i schedarii esistenti",
+    "SYNCHRONIZE_FILES": "Sincrunizà i schedarii"
+  },
+  "PATH_MODE": "Modu di passeghju",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "Nomi relativi di passeghju",
+    "FULL_PATHNAMES": "Nomi cumpletti di passeghju",
+    "ABSOLUTE_PATHNAMES": "Nomi assuluti di passeghju"
+  },
+  "OPTIONS_TITLE": "Ozzioni",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Creà un archiviu SFX",
+    "COMPRESS_SHARED_FILES": "Cumprime schedarii sparti",
+    "DELETE_FILES_AFTER_COMPRESSION": "Squassà i schedarii dopu à a cumpressione"
+  },
+  "ENCRYPTION_TITLE": "Cifratura",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Scrivite a parolla d'intrata",
+    "ENCRYPTION_METHOD": "Metoda di cifratura",
+    "ENCRYPT_FILE_NAMES": "Cifrà i nomi di schedariu"
+  },
+  "SETTINGS": "Preferenze",
+  "LANGUAGE": "Lingua",
+  "CANCEL": "Abbandunà"
+}

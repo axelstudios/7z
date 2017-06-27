@@ -1,0 +1,48 @@
+{
+  "ARCHIVE_FORMAT": "Hormatu d'archivu",
+  "COMPRESSION_LEVEL": "Nivel de compresión",
+  "COMPRESSION_LEVELS": {
+    "0": "Almacenal",
+    "1": "La más respahila",
+    "3": "Respahila",
+    "7": "Másima"
+  },
+  "COMPRESSION_METHOD": "Métou e compresión",
+  "DICTIONARY_SIZE": "Tamañu el izionariu",
+  "WORD_SIZE": "Tamañu e parabra",
+  "SOLID_BLOCK_SIZE": "Tamañu el bloqui sóliu",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Nu sóliu",
+    "on": "Sóliu"
+  },
+  "NUMBER_OF_CPU_THREADS": "Númiru hilus e la UCP",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Usu e memoria pa compresión",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Usu e memoria pa decompresión",
+  "SPLIT_TO_VOLUME_BYTES": "Desapartal en balandronis, 'bytes'",
+  "UPDATE_MODE": "Mou d'atualización",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Añiil i remprazal ficherus",
+    "UPDATE_AND_ADD_FILES": "Atualizal i añiil ficherus",
+    "FRESHEN_EXISTING_FILES": "Atualizal sólu ficherus esistentis",
+    "SYNCHRONIZE_FILES": "Sincronizal ficherus"
+  },
+  "PATH_MODE": "Mou e ruta",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Ruta compreta"
+  },
+  "OPTIONS_TITLE": "Ocionis",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Creal archivu 'SFX'",
+    "COMPRESS_SHARED_FILES": "Comprimil ficherus compartíus"
+  },
+  "ENCRYPTION_TITLE": "Encritación",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Introuzil conseña",
+    "ENCRYPTION_METHOD": "Métou encritación",
+    "ENCRYPT_FILE_NAMES": "Encrital nombris de ficheru"
+  },
+  "SETTINGS": "Configuración",
+  "LANGUAGE": "Palra",
+  "OK": "Acetal",
+  "CANCEL": "Cancelal"
+}

@@ -1,0 +1,46 @@
+{
+  "ARCHIVE_FORMAT": "รูปแบบการบีบอัดที่ต้องการใช้",
+  "COMPRESSION_LEVEL": "อัตราการบีบอัด",
+  "COMPRESSION_LEVELS": {
+    "0": "เก็บเฉยๆ",
+    "1": "เร็วที่สุด",
+    "3": "เร็ว",
+    "5": "ปกติ",
+    "7": "ดี",
+    "9": "ดีที่สุด"
+  },
+  "COMPRESSION_METHOD": "วิธีการบีบอัด",
+  "DICTIONARY_SIZE": "ขนาดดิคชันนารี",
+  "WORD_SIZE": "ขนาดอักษร",
+  "SOLID_BLOCK_SIZE": "ขนาด Solid block",
+  "NUMBER_OF_CPU_THREADS": "จำนวน CPU threads",
+  "MEMORY_USAGE_FOR_COMPRESSING": "หน่วยความจำที่ใช้ในการบีบอัด",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "หน่วยความจำที่ใช้ในการแตกออก",
+  "SPLIT_TO_VOLUME_BYTES": "ขนาดไฟล์ที่ต้องการแบ่ง, ไบต์",
+  "UPDATE_MODE": "การปรับปรุง",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "เพิ่มและแทนที่ไฟล์",
+    "UPDATE_AND_ADD_FILES": "ปรับปรุงและเพิ่ม",
+    "FRESHEN_EXISTING_FILES": "ทำให้ไฟล์ที่มีอยู่ใช้การได้ดีขึ้น",
+    "SYNCHRONIZE_FILES": "ทำให้ไฟล์ประสานกัน"
+  },
+  "PATH_MODE": "ที่ตั้ง",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "ชื่อที่ตั้งแบบเต็ม"
+  },
+  "OPTIONS_TITLE": "ตัวเลือก",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "สร้างเอกสาร SFX",
+    "COMPRESS_SHARED_FILES": "บีบอัดแชร์ไฟล์"
+  },
+  "ENCRYPTION_TITLE": "การเข้ารหัส",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "ใส่รหัสผ่าน",
+    "ENCRYPTION_METHOD": "วิธีการเข้ารหัส",
+    "ENCRYPT_FILE_NAMES": "สร้างรหัสผ่าน"
+  },
+  "SETTINGS": "กำหนด",
+  "LANGUAGE": "ภาษา",
+  "OK": "ตกลง",
+  "CANCEL": "ยกเลิก"
+}

@@ -1,0 +1,41 @@
+{
+  "ARCHIVE_FORMAT": "Arkiva formato",
+  "COMPRESSION_LEVEL": "Kompresogrado",
+  "COMPRESSION_LEVELS": {
+    "0": "Sen kompresar",
+    "1": "Maxim rapide",
+    "3": "Rapide",
+    "5": "Normala kompreso",
+    "7": "Maxim granda kompreso",
+    "9": "Extreme"
+  },
+  "COMPRESSION_METHOD": "Kompresometodo",
+  "DICTIONARY_SIZE": "Vortarograndeso",
+  "WORD_SIZE": "Vortograndeso",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Memoruzo por kompresar",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Memoruzo por extraktar",
+  "SPLIT_TO_VOLUME_BYTES": "Fendar por volumini, bayti",
+  "UPDATE_MODE": "Remplasomodo",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Adjuntar e remplasar dosieri",
+    "UPDATE_AND_ADD_FILES": "Rinovigar e adjuntar dosieri",
+    "FRESHEN_EXISTING_FILES": "Rifreshigar existanta dosieri",
+    "SYNCHRONIZE_FILES": "Sinkronizar dosieri"
+  },
+  "PATH_MODE": "Dosiervoyi",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Absoluta dosiervoyi"
+  },
+  "OPTIONS_TITLE": "Ajustaji",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Krear SFX-arkivo"
+  },
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Sugestez pasovorto",
+    "ENCRYPT_FILE_NAMES": "Chifrar dosiernomi"
+  },
+  "SETTINGS": "Ajusti",
+  "LANGUAGE": "Linguo",
+  "OK": "Bone",
+  "CANCEL": "Abandonar"
+}

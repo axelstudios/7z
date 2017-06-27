@@ -1,0 +1,45 @@
+{
+  "ARCHIVE_FORMAT": "Format",
+  "COMPRESSION_LEVEL": "Komprimeringsnivå",
+  "COMPRESSION_LEVELS": {
+    "0": "Ukomprimert",
+    "1": "Raskest",
+    "3": "Rask",
+    "7": "Maksimum"
+  },
+  "COMPRESSION_METHOD": "Komprimeringsmetode",
+  "DICTIONARY_SIZE": "Ordbokstørrelse",
+  "WORD_SIZE": "Ordstørrelse",
+  "SOLID_BLOCK_SIZE": "Solid blokk størrelse",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Ikkje-solid"
+  },
+  "NUMBER_OF_CPU_THREADS": "Antall CPU tråder",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Minnebruk ved komprimering",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Minnebruk ved dekomprimering",
+  "SPLIT_TO_VOLUME_BYTES": "Del opp til flere delarkiv i størrelsen",
+  "UPDATE_MODE": "Oppdateringsmetode",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Legg til og overskriv filer",
+    "UPDATE_AND_ADD_FILES": "Oppdater og legg til filer",
+    "FRESHEN_EXISTING_FILES": "Oppdater filer",
+    "SYNCHRONIZE_FILES": "Synkroniser filer"
+  },
+  "PATH_MODE": "Filstier",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Fullstendige filstier"
+  },
+  "OPTIONS_TITLE": "Innstillinger",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Selvutpakkende arkiv («SFX»)"
+  },
+  "ENCRYPTION_TITLE": "Kryptering",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Angi passord",
+    "ENCRYPTION_METHOD": "Krypteringsmetode",
+    "ENCRYPT_FILE_NAMES": "Krypter filnavn"
+  },
+  "SETTINGS": "Innstillinger",
+  "LANGUAGE": "Språk",
+  "CANCEL": "Avbryt"
+}

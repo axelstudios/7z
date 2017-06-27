@@ -1,0 +1,59 @@
+{
+  "ARCHIVE_FORMAT": "Archyvo formatas",
+  "COMPRESSION_LEVEL": "Suglaudinimo lygis",
+  "COMPRESSION_LEVELS": {
+    "0": "Mažiausias",
+    "1": "Greitesnis",
+    "3": "Greitas",
+    "5": "Normalus",
+    "7": "Didžiausias",
+    "9": "Smarkiausias"
+  },
+  "COMPRESSION_METHOD": "Glaudinimo būdas",
+  "DICTIONARY_SIZE": "Žodyno dydis",
+  "WORD_SIZE": "Žodžio dydis",
+  "SOLID_BLOCK_SIZE": "Vientiso bloko dydis",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Ne vientisas",
+    "on": "Vientisas archyvas"
+  },
+  "NUMBER_OF_CPU_THREADS": "CPU gijų skaičius",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Atmintinės naudojimas suglaudinimui",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Atmintinės naudojimas išskleidimui",
+  "SPLIT_TO_VOLUME_BYTES": "Skaidyti į dalis baitais",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "Įsiminti simbolines nuorodas",
+    "STORE_HARD_LINKS": "Įsiminti patvariasias nuorodas",
+    "STORE_ALTERNATE_DATA_STREAMS": "Įsiminti alternatyvius duomenų srautus",
+    "STORE_FILE_SECURITY": "Įsiminti failų saugumo nuostatas"
+  },
+  "UPDATE_MODE": "Atnaujinimo režimas",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Įtraukti ir pakeisti failus",
+    "UPDATE_AND_ADD_FILES": "Atnaujinti ir įtraukti failus",
+    "FRESHEN_EXISTING_FILES": "Atnaujinti esančius failus",
+    "SYNCHRONIZE_FILES": "Sinchronizuoti failus"
+  },
+  "PATH_MODE": "Kelio moda",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "Santykiniai keliai",
+    "FULL_PATHNAMES": "Pilni keliai",
+    "ABSOLUTE_PATHNAMES": "Absoliutūs keliai"
+  },
+  "OPTIONS_TITLE": "Nuostatos",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Sukurti išsipakuojantį archyvą",
+    "COMPRESS_SHARED_FILES": "Glaudinti atvertus įrašymui failus",
+    "DELETE_FILES_AFTER_COMPRESSION": "Ištrinti failus suglaudinus"
+  },
+  "ENCRYPTION_TITLE": "Šifravimas",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Įveskite slaptažodį",
+    "ENCRYPTION_METHOD": "Šifravimo metodas",
+    "ENCRYPT_FILE_NAMES": "Užšifruoti failų pavadinimus"
+  },
+  "SETTINGS": "Nustatos",
+  "LANGUAGE": "Kalba",
+  "OK": "Gerai",
+  "CANCEL": "Atšaukti"
+}

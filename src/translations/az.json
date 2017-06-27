@@ -1,0 +1,59 @@
+{
+  "ARCHIVE_FORMAT": "Arxiv qismi",
+  "COMPRESSION_LEVEL": "Sıxılma dərəcəsi",
+  "COMPRESSION_LEVELS": {
+    "0": "Sıxılmasız",
+    "1": "Sürətli",
+    "3": "Cəld",
+    "5": "Məqbul",
+    "7": "Yüksək",
+    "9": "Daha Yüksək (Ultra)"
+  },
+  "COMPRESSION_METHOD": "Sıxılma üsulu",
+  "DICTIONARY_SIZE": "Lüğət ölçüsü",
+  "WORD_SIZE": "Söz ölçüsü",
+  "SOLID_BLOCK_SIZE": "Bölmə ölçüsü",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Fayl ölçüsünə görə",
+    "on": "Aramsız"
+  },
+  "NUMBER_OF_CPU_THREADS": "Axın sayı",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Qablaşdırma üçün yaddaş həcmi",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Çeşidləmə üçün yaddaş həcmi",
+  "SPLIT_TO_VOLUME_BYTES": "Cildlərə bölmək, (bayt) ölçüdə",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "Rəmzli keçidləri saxla",
+    "STORE_HARD_LINKS": "Sərt keçidləri saxla",
+    "STORE_ALTERNATE_DATA_STREAMS": "Əvəzedici axınları saxla",
+    "STORE_FILE_SECURITY": "Giriş hüququnu saxla"
+  },
+  "UPDATE_MODE": "Dəyişmə vəziyyəti",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Əlavə et və əvəzlə",
+    "UPDATE_AND_ADD_FILES": "Yenilə və əlavə et",
+    "FRESHEN_EXISTING_FILES": "Yenilə",
+    "SYNCHRONIZE_FILES": "Eyniləşdir (Sinxron)"
+  },
+  "PATH_MODE": "Fayllara istiqamət",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "Nisbi istiqamətlər",
+    "FULL_PATHNAMES": "Tam istiqamətlər",
+    "ABSOLUTE_PATHNAMES": "Mütləq istiqamətlər"
+  },
+  "OPTIONS_TITLE": "Seçimlər",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "SFX arxiv yarat",
+    "COMPRESS_SHARED_FILES": "Yazılış üçün açıq faylları sıx",
+    "DELETE_FILES_AFTER_COMPRESSION": "Sıxılmadan sonra faylları sil"
+  },
+  "ENCRYPTION_TITLE": "Şifrələmə",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Şifrə daxil edin",
+    "ENCRYPTION_METHOD": "Şifrələmə üsulu",
+    "ENCRYPT_FILE_NAMES": "Fayl adlarını şifrələ"
+  },
+  "SETTINGS": "Tənzimləmələr",
+  "LANGUAGE": "Dil",
+  "OK": "OLDU",
+  "CANCEL": "İmtina"
+}

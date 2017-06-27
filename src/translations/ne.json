@@ -1,0 +1,41 @@
+{
+  "ARCHIVE_FORMAT": "सङ्ग्रह ढाँचा",
+  "COMPRESSION_LEVEL": "सङ्कुचन स्तर",
+  "COMPRESSION_LEVELS": {
+    "0": "भण्डार गर्नुहोस्",
+    "1": "सब भन्दा छिटो",
+    "3": "छिटो",
+    "5": "साधारण",
+    "7": "अधिकतम",
+    "9": "अत्यन्त"
+  },
+  "COMPRESSION_METHOD": "सङ्कुचन विधि",
+  "DICTIONARY_SIZE": "शब्दकोश साइज",
+  "WORD_SIZE": "शब्द साइज",
+  "MEMORY_USAGE_FOR_COMPRESSING": "सङ्कुचनका लागि स्मृति प्रयोग",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "असङ्कुचनका लागि स्मृति प्रयोग",
+  "SPLIT_TO_VOLUME_BYTES": "भोल्युम, बाइटमा विभाजन गर्नुहोस्",
+  "UPDATE_MODE": "अद्यावधिक मोड",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "फाइल थपेर प्रतिस्थापन गर्नुहोस्",
+    "UPDATE_AND_ADD_FILES": "फाइलहरू अद्यावधिक गरेर थप्नुहोस्",
+    "FRESHEN_EXISTING_FILES": "अवस्थित फाइल ताजा गर्नुहोस्",
+    "SYNCHRONIZE_FILES": "फाइल समक्रमण गर्नुहोस्"
+  },
+  "PATH_MODE": "मार्ग मोड",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "पूरा मार्गनाम"
+  },
+  "OPTIONS_TITLE": "विकल्प",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "SFX सङ्ग्रह सिर्जना गर्नुहोस्"
+  },
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "पासवर्ड प्रविष्ट गर्नुहोस्",
+    "ENCRYPT_FILE_NAMES": "फाइलनाम गुप्तिकरण गर्नुहोस्"
+  },
+  "SETTINGS": "सेटिङ",
+  "LANGUAGE": "भाषा",
+  "OK": "ठीक छ",
+  "CANCEL": "रद्द गर्नुहोस्"
+}

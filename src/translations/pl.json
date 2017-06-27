@@ -1,0 +1,57 @@
+{
+  "ARCHIVE_FORMAT": "Format archiwum",
+  "COMPRESSION_LEVEL": "Stopień kompresji",
+  "COMPRESSION_LEVELS": {
+    "0": "Bez kompresji",
+    "1": "Najszybsza",
+    "3": "Szybka",
+    "5": "Normalna",
+    "7": "Maksymalna"
+  },
+  "COMPRESSION_METHOD": "Metoda kompresji",
+  "DICTIONARY_SIZE": "Rozmiar słownika",
+  "WORD_SIZE": "Rozmiar słowa",
+  "SOLID_BLOCK_SIZE": "Rozmiar bloku ciągłego",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Nieciągły",
+    "on": "Ciągły"
+  },
+  "NUMBER_OF_CPU_THREADS": "Liczba wątków",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Użycie pamięci dla kompresji",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Użycie pamięci dla dekompresji",
+  "SPLIT_TO_VOLUME_BYTES": "Rozmiar woluminów (bajty)",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "Zachowaj dowiązania symboliczne",
+    "STORE_HARD_LINKS": "Zachowaj dowiązania twarde",
+    "STORE_ALTERNATE_DATA_STREAMS": "Zachowaj alternatywne strumienie danych",
+    "STORE_FILE_SECURITY": "Zachowaj zabezpieczenia plików"
+  },
+  "UPDATE_MODE": "Tryb aktualizacji",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Dodaj i zamień pliki",
+    "UPDATE_AND_ADD_FILES": "Aktualizuj i dodaj pliki",
+    "FRESHEN_EXISTING_FILES": "Odśwież istniejące pliki",
+    "SYNCHRONIZE_FILES": "Synchronizuj pliki"
+  },
+  "PATH_MODE": "Tryb ścieżek",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "Względne ścieżki",
+    "FULL_PATHNAMES": "Pełne ścieżki",
+    "ABSOLUTE_PATHNAMES": "Bezwzględne ścieżki"
+  },
+  "OPTIONS_TITLE": "Opcje",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Utwórz archiwum SFX",
+    "COMPRESS_SHARED_FILES": "Kompresuj pliki współdzielone",
+    "DELETE_FILES_AFTER_COMPRESSION": "Usuń pliki po skompresowaniu"
+  },
+  "ENCRYPTION_TITLE": "Szyfrowanie",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Wprowadź hasło",
+    "ENCRYPTION_METHOD": "Metoda szyfrowania",
+    "ENCRYPT_FILE_NAMES": "Zaszyfruj nazwy plików"
+  },
+  "SETTINGS": "Ustawienia",
+  "LANGUAGE": "Język",
+  "CANCEL": "Anuluj"
+}

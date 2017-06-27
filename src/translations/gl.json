@@ -1,0 +1,57 @@
+{
+  "ARCHIVE_FORMAT": "Formato de arquivo",
+  "COMPRESSION_LEVEL": "Nivel de compresión",
+  "COMPRESSION_LEVELS": {
+    "0": "Arquivar",
+    "1": "Máis rápida",
+    "3": "Rápida",
+    "7": "Máxima"
+  },
+  "COMPRESSION_METHOD": "Método de compresión",
+  "DICTIONARY_SIZE": "Tamaño do dicionario",
+  "WORD_SIZE": "Tamaño de palabra",
+  "SOLID_BLOCK_SIZE": "Tamaño de bloque sólido",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Non sólido",
+    "on": "Sólido"
+  },
+  "NUMBER_OF_CPU_THREADS": "Número de procesos da CPU",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Uso de memoria para compresión",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Uso de memoria para extracción",
+  "SPLIT_TO_VOLUME_BYTES": "Dividir en volumes, bytes",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "Arquivar ligazóns simbólicas",
+    "STORE_HARD_LINKS": "Arquivar ligazóns fortes",
+    "STORE_ALTERNATE_DATA_STREAMS": "Arquivar fluxo de datos alternos",
+    "STORE_FILE_SECURITY": "Arquivar seguridade de ficheiro"
+  },
+  "UPDATE_MODE": "Función actualizar",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Engadir e substituír ficheiros",
+    "UPDATE_AND_ADD_FILES": "Actualizar e engadir ficheiros",
+    "FRESHEN_EXISTING_FILES": "Só actualizar ficheiros existentes",
+    "SYNCHRONIZE_FILES": "Sincronizar ficheiros"
+  },
+  "PATH_MODE": "Modo camiño",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "Nomes de camiño relativo",
+    "FULL_PATHNAMES": "Nomes de camiño completos",
+    "ABSOLUTE_PATHNAMES": "Nomes de camiño absoluto"
+  },
+  "OPTIONS_TITLE": "Opcións",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Crear ficheiro SFX",
+    "COMPRESS_SHARED_FILES": "Comprimir ficheiros compartidos",
+    "DELETE_FILES_AFTER_COMPRESSION": "Eliminar ficheiros despois de comprimir"
+  },
+  "ENCRYPTION_TITLE": "Cifrado",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Insira contrasinal",
+    "ENCRYPTION_METHOD": "Método de cifrado",
+    "ENCRYPT_FILE_NAMES": "Cifrar nomes de ficheiro"
+  },
+  "SETTINGS": "Axustes",
+  "LANGUAGE": "Idioma",
+  "OK": "De acordo",
+  "CANCEL": "Cancelar"
+}

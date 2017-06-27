@@ -1,0 +1,48 @@
+{
+  "ARCHIVE_FORMAT": "Formatul arhivei",
+  "COMPRESSION_LEVEL": "Nivel de arhivare",
+  "COMPRESSION_LEVELS": {
+    "0": "Stochează",
+    "1": "Imediată",
+    "3": "Rapidă",
+    "5": "Normală",
+    "7": "Maximă"
+  },
+  "COMPRESSION_METHOD": "Metoda de arhivare",
+  "DICTIONARY_SIZE": "Mărimea dicţionarului",
+  "WORD_SIZE": "Mărimea cuvântului",
+  "SOLID_BLOCK_SIZE": "Mărimea blocului solid",
+  "SOLID_BLOCK_SIZES": {
+    "off": "NEsolid"
+  },
+  "NUMBER_OF_CPU_THREADS": "Numărul de procesoare utilizate",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Memorie utilizată pentru arhivare",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Memorie utilizată pentru dezarhivare",
+  "SPLIT_TO_VOLUME_BYTES": "Împarte în volume, octeţi",
+  "UPDATE_MODE": "Modul de actualizare",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Adaugă şi înlocuieşte fişierele",
+    "UPDATE_AND_ADD_FILES": "Actualizează şi adaugă fişierele",
+    "FRESHEN_EXISTING_FILES": "Actualizează fişierele existente",
+    "SYNCHRONIZE_FILES": "Sincronizează fişierele"
+  },
+  "PATH_MODE": "Modul destinaţie",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Numele întreg al destinaţiei"
+  },
+  "OPTIONS_TITLE": "Opţiuni",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Crează arhivă SFX",
+    "COMPRESS_SHARED_FILES": "Arhivează fişierele partajate"
+  },
+  "ENCRYPTION_TITLE": "Criptare",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Introdu parola",
+    "ENCRYPTION_METHOD": "Metoda de criptare",
+    "ENCRYPT_FILE_NAMES": "Criptează numele fişierului"
+  },
+  "SETTINGS": "Setări",
+  "LANGUAGE": "Limba",
+  "OK": "Bine",
+  "CANCEL": "Anulare"
+}

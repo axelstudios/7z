@@ -44,9 +44,13 @@ module.exports = {
       ]
     }, {
       test: /\.html$/,
-      loaders: [
-        {loader: 'html-loader', options: {minimize: true}}
-      ]
+      loaders: [{
+        loader: 'html-loader',
+        options: {
+          conservativeCollapse: false,
+          minimize: true
+        }
+      }]
     }]
   },
   plugins: [
@@ -56,7 +60,7 @@ module.exports = {
       template: conf.path.src('index.html')
     }),
     new webpack.optimize.UglifyJsPlugin({
-      output: {comments: false},
+      output: {quote_style: 1}, // eslint-disable-line camelcase
       compress: {unused: true, dead_code: true, warnings: false} // eslint-disable-line camelcase
     }),
     new ExtractTextPlugin('index-[contenthash].css'),

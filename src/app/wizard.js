@@ -59,7 +59,7 @@ export const wizard = {
       '8128M - DVD DL',
       '23040M - BD'
     ];
-    this.splitToVolumeRegex = /^(\d+ *[bkmg]?(?: +\d+ *[bkmg]?)*)(?: *-.*)?$/i;
+    this.splitToVolumeRegex = /^(\d+ *[bkmgt]?(?: +\d+ *[bkmgt]?)*)(?: *-.*)?$/i;
 
     this.updateModes = {
       add: 'UPDATE_MODES.ADD_AND_REPLACE_FILES',
@@ -75,12 +75,6 @@ export const wizard = {
       absolute: 'PATH_MODES.ABSOLUTE_PATHNAMES'
     };
     this.pathMode = 'relative';
-
-    this.encryptionMethods = [{
-      name: 'AES-256',
-      value: 'AES256'
-    }];
-    this.encryptionMethod = 'AES256';
 
     function getCommand() {
       switch (this.updateMode) {
@@ -171,7 +165,7 @@ export const wizard = {
 
       let size = 0;
       if (this.archiveFormat === '7z' && this.compressionLevel === 9) {
-        size += 29;
+        size += 29 << 20;
       } else if (this.archiveFormat === 'zip') {
         const subThreads = (this.compressionMethod === 'LZMA' && this.cpuThreads > 1 && this.compressionLevel >= 5) ? 2 : 1;
         const mainThreads = _.floor(this.cpuThreads / subThreads);
@@ -218,7 +212,7 @@ export const wizard = {
         }
         size += size1 * numBlockThreads;
 
-        return [_.floor(size / (1 << 20)), _.floor((dictionarySize + (2 << 20)) / (1 << 20))];
+        return [_.ceil(size / (1 << 20)), _.ceil((dictionarySize + (2 << 20)) / (1 << 20))];
       } else if (this.compressionMethod === 'PPMd') {
         const decompression = (dictionarySize >> 20) + 2;
         return [size + (decompression * this.cpuThreads), decompression];
@@ -236,7 +230,7 @@ export const wizard = {
     function getSplitToVolume() {
       if (!_.isEmpty(this.splitToVolume)) {
         const volumes = _.toLower(this.splitToVolume.match(this.splitToVolumeRegex)[1]);
-        const volumesArr = _.map(volumes.match(/(\d+) *([bkmg]?)/g), vol => vol.replace(/ /g, ''));
+        const volumesArr = _.map(volumes.match(/(\d+) *([bkmgt]?)/g), vol => vol.replace(/ /g, ''));
         return `-v${volumesArr.join(' -v')}`;
       }
     }
@@ -374,11 +368,13 @@ export const wizard = {
         const match = this.splitToVolume.match(this.splitToVolumeRegex);
         if (match) {
           const volumes = _.toLower(match[1]);
-          const volumesArr = _.map(volumes.match(/(\d+) *([bkmg]?)/g), vol => vol.replace(/ /g, ''));
+          const volumesArr = _.map(volumes.match(/(\d+) *([bkmgt]?)/g), vol => vol.replace(/ /g, ''));
           const lastVolume = _.last(volumesArr);
-          const volumeMatch = lastVolume.match(/^(\d+)([bkmg]?)$/);
+          const volumeMatch = lastVolume.match(/^(\d+)([bkmgt]?)$/);
           let volumeSize = _.toInteger(volumeMatch[1]);
           switch (volumeMatch[2]) {
+            case 't':
+              volumeSize <<= 10;
             case 'g':
               volumeSize <<= 10;
             case 'm':
@@ -413,10 +409,7 @@ export const wizard = {
           $mdToast.show({
             hideDelay: 7000,
             position: 'top right',
-            template: `<md-toast>
-              <span class="md-toast-text" flex>Passwords with double quotes need special handling</span>
-              <md-button class="md-highlight" href="https://sourceforge.net/p/sevenzip/discussion/45798/thread/e3ab198a/" target="_blank">More info</md-button>
-            </md-toast>`
+            template: require('./dialogs/quotes-toast.html')
           });
         }
       }
@@ -428,10 +421,7 @@ export const wizard = {
         $mdToast.show({
           hideDelay: 7000,
           position: 'top right',
-          template: `<md-toast>
-            <span class="md-toast-text" flex>Zip files encrypted with AES-256 are incompatible with Windows Explorer</span>
-            <md-button class="md-highlight" href="https://sourceforge.net/p/sevenzip/discussion/45798/thread/28b54e16/#129a" target="_blank">More info</md-button>
-          </md-toast>`
+          template: require('./dialogs/encryption-toast.html')
         });
       } else {
         $mdToast.hide();
@@ -451,7 +441,7 @@ export const wizard = {
           };
         },
         targetEvent: $event,
-        template: require('./settings.html')
+        template: require('./dialogs/settings.html')
       });
     }
 

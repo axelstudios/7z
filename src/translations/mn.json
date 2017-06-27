@@ -1,0 +1,41 @@
+{
+  "ARCHIVE_FORMAT": "Архив өргөтгөл",
+  "COMPRESSION_LEVEL": "Шахалтын төвшин",
+  "COMPRESSION_LEVELS": {
+    "0": "Хадгалах",
+    "1": "Дээд хурданаар",
+    "3": "Хурдан",
+    "5": "Энгийн",
+    "7": "Дээд хэмжээгээр",
+    "9": "Ултра"
+  },
+  "COMPRESSION_METHOD": "Шахах арга",
+  "DICTIONARY_SIZE": "Толь бичгийн хэмжээ",
+  "WORD_SIZE": "Үгийн хэмжээ",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Шахаж байгаа санах ойн хэрэглээ",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Задалж байгаа санах ойн хэрэглээ",
+  "SPLIT_TO_VOLUME_BYTES": "Эзлэхүүн рүү хуваах, битүүд",
+  "UPDATE_MODE": "Шинэчлэх горим",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Нэмэх ба дахин байрлуулах",
+    "UPDATE_AND_ADD_FILES": "Шинэчлэх ба дахин байрлуулах",
+    "FRESHEN_EXISTING_FILES": "Байгаа файлуудыг дахин унших",
+    "SYNCHRONIZE_FILES": "Файлуудыг тааруулах"
+  },
+  "PATH_MODE": "Замын горим",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Бүтэн замын нэр"
+  },
+  "OPTIONS_TITLE": "Сонголтууд",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "SFX архив үүсгэх"
+  },
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Нууц үгээ оруулах",
+    "ENCRYPT_FILE_NAMES": "Файлын нэрүүдийг нууцал"
+  },
+  "SETTINGS": "Тохируулгууд",
+  "LANGUAGE": "Хэл",
+  "OK": "За",
+  "CANCEL": "Болих"
+}

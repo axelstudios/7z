@@ -1,0 +1,51 @@
+{
+  "ARCHIVE_FORMAT": "Архив төрө",
+  "COMPRESSION_LEVEL": "Ҡыҫыу дәрәжәһе",
+  "COMPRESSION_LEVELS": {
+    "0": "Ҡыҫыуһыҙ",
+    "1": "Бик тиҙ",
+    "3": "Тиҙ",
+    "5": "Ғәҙәти",
+    "7": "Максимум",
+    "9": "Ультра"
+  },
+  "COMPRESSION_METHOD": "Ҡыҫыу ысулы",
+  "DICTIONARY_SIZE": "Һүҙлек күләме",
+  "WORD_SIZE": "Һүҙ күләме",
+  "SOLID_BLOCK_SIZE": "Блоктар күләме",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Файл күләме буйынса",
+    "on": "Өҙөлмәгән"
+  },
+  "NUMBER_OF_CPU_THREADS": "Ағымдар һаны",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Ҡыҫҡанда хәтер ҡулланыу",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Сығарғанда хәтер ҡулланыу",
+  "SPLIT_TO_VOLUME_BYTES": "Киҫәк/байт итеп бүл",
+  "UPDATE_MODE": "Яңыртыу ысулы",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Өҫтәргә һәм алмаштырырға",
+    "UPDATE_AND_ADD_FILES": "Яңыртырға һәм өҫтәргә",
+    "FRESHEN_EXISTING_FILES": "Яңыртырға",
+    "SYNCHRONIZE_FILES": "Синхронларға"
+  },
+  "PATH_MODE": "Юл исемдәре",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Тулы юл исемдәре"
+  },
+  "OPTIONS_TITLE": "Көйләү",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "SFX архивын яһау",
+    "COMPRESS_SHARED_FILES": "Яҙыуға асыҡ файлдарҙы ҡыҫырға",
+    "DELETE_FILES_AFTER_COMPRESSION": "Delete files after compression"
+  },
+  "ENCRYPTION_TITLE": "Шифрлау",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Паролде керетегеҙ",
+    "ENCRYPTION_METHOD": "Шифрлау методы",
+    "ENCRYPT_FILE_NAMES": "Файл исемдәрен шифрла"
+  },
+  "SETTINGS": "Көйләүҙәр",
+  "LANGUAGE": "Тел һайлау",
+  "OK": "Тамам",
+  "CANCEL": "Кире ал"
+}

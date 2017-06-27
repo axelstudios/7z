@@ -1,0 +1,58 @@
+{
+  "ARCHIVE_FORMAT": "Архив форматы",
+  "COMPRESSION_LEVEL": "Кысу дәрәҗәсе",
+  "COMPRESSION_LEVELS": {
+    "0": "Кысусыз",
+    "1": "Бик тиз",
+    "3": "Тиз",
+    "5": "Уртача",
+    "7": "Максималь",
+    "9": "Ультра"
+  },
+  "COMPRESSION_METHOD": "Кысу ысулы",
+  "DICTIONARY_SIZE": "Сүзлек зурлыгы",
+  "WORD_SIZE": "Сүз зурлыгы",
+  "SOLID_BLOCK_SIZE": "Блок зурлыгы",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Файл үлчәме буенча",
+    "on": "Өзлексез"
+  },
+  "NUMBER_OF_CPU_THREADS": "CPU агымнары саны",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Кысу өчен хәтер күләме",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Чыгару өчен хәтер күләме",
+  "SPLIT_TO_VOLUME_BYTES": "Нинди үлчәмдәге томнарга бүлергә (байтларда)",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "Символик сылтамаларны сакларга",
+    "STORE_HARD_LINKS": "Каты сылтамаларны сакларга",
+    "STORE_ALTERNATE_DATA_STREAMS": "Альтернатив сылтамаларны сакларга",
+    "STORE_FILE_SECURITY": "Керү хакларын сакларга"
+  },
+  "UPDATE_MODE": "Үзгәртү режимы",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Өстәргә һәм алыштырырга",
+    "UPDATE_AND_ADD_FILES": "Яңартырга һәм өстәргә",
+    "FRESHEN_EXISTING_FILES": "Яңартырга",
+    "SYNCHRONIZE_FILES": "Синхронлаштырырга"
+  },
+  "PATH_MODE": "Файлларга юллар",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "Чагыштырмача юллар",
+    "FULL_PATHNAMES": "Тулы юллар",
+    "ABSOLUTE_PATHNAMES": "Абсолют юллар"
+  },
+  "OPTIONS_TITLE": "Параметрлар",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "SFX-архив ясарга",
+    "COMPRESS_SHARED_FILES": "Уртак файлларны кысарга",
+    "DELETE_FILES_AFTER_COMPRESSION": "Кысудан соң файлларны бетерергә"
+  },
+  "ENCRYPTION_TITLE": "Шифрлау",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Серсүз кертегез",
+    "ENCRYPTION_METHOD": "Шифрлау ысулы",
+    "ENCRYPT_FILE_NAMES": "Файл исемнәрен шифрларга"
+  },
+  "SETTINGS": "Көйләүләр",
+  "LANGUAGE": "Тел",
+  "CANCEL": "Баш тарту"
+}

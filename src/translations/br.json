@@ -1,0 +1,59 @@
+{
+  "ARCHIVE_FORMAT": "Mentrezh an diell",
+  "COMPRESSION_LEVEL": "Live gwaskañ",
+  "COMPRESSION_LEVELS": {
+    "0": "Gwaskañ ebet",
+    "1": "Primañ",
+    "3": "Prim",
+    "5": "Reizh",
+    "7": "Uhelañ",
+    "9": "Gour"
+  },
+  "COMPRESSION_METHOD": "Rizh gwaskañ",
+  "DICTIONARY_SIZE": "Ment ar geriadur",
+  "WORD_SIZE": "Ment ar gerioù",
+  "SOLID_BLOCK_SIZE": "Solid Block size",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Non-solid",
+    "on": "Solid"
+  },
+  "NUMBER_OF_CPU_THREADS": "Number of CPU threads",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Memor evit ar waskerezh",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Memor evit an diwaskerezh",
+  "SPLIT_TO_VOLUME_BYTES": "Troc'hañ e levrennoù, eizhtetoù",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "Store symbolic links",
+    "STORE_HARD_LINKS": "Store hard links",
+    "STORE_ALTERNATE_DATA_STREAMS": "Store alternate data streams",
+    "STORE_FILE_SECURITY": "Store file security"
+  },
+  "UPDATE_MODE": "Mod nevesaat",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Ouzhpennañ hag erlec'hiañ ar restroù",
+    "UPDATE_AND_ADD_FILES": "Nevesaat hag ouzhpennañ ar restroù",
+    "FRESHEN_EXISTING_FILES": "Freskaat ar restroù a zo anezho",
+    "SYNCHRONIZE_FILES": "Goubredañ ar restroù"
+  },
+  "PATH_MODE": "Treugoù",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "Relative pathnames",
+    "FULL_PATHNAMES": "Treugoù klok",
+    "ABSOLUTE_PATHNAMES": "Absolute pathnames"
+  },
+  "OPTIONS_TITLE": "Dibaboù",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Sevel un diell SFX",
+    "COMPRESS_SHARED_FILES": "Compress shared files",
+    "DELETE_FILES_AFTER_COMPRESSION": "Delete files after compression"
+  },
+  "ENCRYPTION_TITLE": "Encryption",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Roit ar ger-tremen",
+    "ENCRYPTION_METHOD": "Encryption method",
+    "ENCRYPT_FILE_NAMES": "Ennodiñ an anvioù restroù"
+  },
+  "SETTINGS": "Perzhioù",
+  "LANGUAGE": "Yezh",
+  "OK": "Mat eo",
+  "CANCEL": "Nullañ"
+}

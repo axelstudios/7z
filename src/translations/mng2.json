@@ -1,0 +1,50 @@
+{
+  "ARCHIVE_FORMAT": "  ",
+  "COMPRESSION_LEVEL": " ",
+  "COMPRESSION_LEVELS": {
+    "0": " ",
+    "1": "  ",
+    "3": " ",
+    "5": " ",
+    "7": "  ",
+    "9": " "
+  },
+  "COMPRESSION_METHOD": " ",
+  "DICTIONARY_SIZE": "   ",
+  "WORD_SIZE": "    ",
+  "SOLID_BLOCK_SIZE": "    ",
+  "SOLID_BLOCK_SIZES": {
+    "off": "",
+    "on": ""
+  },
+  "NUMBER_OF_CPU_THREADS": "CPU ",
+  "MEMORY_USAGE_FOR_COMPRESSING": "   ",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "   ",
+  "SPLIT_TO_VOLUME_BYTES": "   ",
+  "UPDATE_MODE": " ",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "  ",
+    "UPDATE_AND_ADD_FILES": "   ",
+    "FRESHEN_EXISTING_FILES": "   ",
+    "SYNCHRONIZE_FILES": "    "
+  },
+  "PATH_MODE": "  ",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": " "
+  },
+  "OPTIONS_TITLE": "",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "   ",
+    "COMPRESS_SHARED_FILES": "   "
+  },
+  "ENCRYPTION_TITLE": "",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "   ",
+    "ENCRYPTION_METHOD": "  ",
+    "ENCRYPT_FILE_NAMES": "   "
+  },
+  "SETTINGS": "",
+  "LANGUAGE": "",
+  "OK": "",
+  "CANCEL": ""
+}

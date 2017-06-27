@@ -1,0 +1,59 @@
+{
+  "ARCHIVE_FORMAT": "Safnsnið",
+  "COMPRESSION_LEVEL": "Þjöppunarsnið",
+  "COMPRESSION_LEVELS": {
+    "0": "Geyma",
+    "1": "Hraðast",
+    "3": "Hratt",
+    "5": "Venjulegt",
+    "7": "Hámarks",
+    "9": "Öfga-"
+  },
+  "COMPRESSION_METHOD": "Þjöppunaraðferð",
+  "DICTIONARY_SIZE": "Orðasafnsstærð",
+  "WORD_SIZE": "Orðastærð",
+  "SOLID_BLOCK_SIZE": "Þéttbálkstærð",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Óþétt",
+    "on": "Þétt"
+  },
+  "NUMBER_OF_CPU_THREADS": "Fjöldi gjörvaþráða",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Minnisnotkun fyrir þjöppun",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Minnisnotkun fyrir afþjöppun",
+  "SPLIT_TO_VOLUME_BYTES": "Kljúfa í bindi, bæti",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "Geyma mjúktengla",
+    "STORE_HARD_LINKS": "Geyma harðtengla",
+    "STORE_ALTERNATE_DATA_STREAMS": "Geyma víxlgagnastrauma",
+    "STORE_FILE_SECURITY": "Geyma skráaröryggi"
+  },
+  "UPDATE_MODE": "Uppfærsluhamur",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Bæta við og yfirrita skrár",
+    "UPDATE_AND_ADD_FILES": "Uppfæra og bæta við skrám",
+    "FRESHEN_EXISTING_FILES": "Hressa við gildandi skrám",
+    "SYNCHRONIZE_FILES": "Samstilla skrár"
+  },
+  "PATH_MODE": "Slóðarhamur",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "Afstæð slóðarnöfn",
+    "FULL_PATHNAMES": "Full slóðarnöfn",
+    "ABSOLUTE_PATHNAMES": "Algild slóðarnöfn"
+  },
+  "OPTIONS_TITLE": "Valmöguleikar",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Skapa SFX-safn",
+    "COMPRESS_SHARED_FILES": "Þjappa sameiginlegum skrám",
+    "DELETE_FILES_AFTER_COMPRESSION": "Eyða skrám eftir þjöppun"
+  },
+  "ENCRYPTION_TITLE": "Dulkóðun",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Ritaðu aðgangsorðið",
+    "ENCRYPTION_METHOD": "Dulkóðunaraðferð",
+    "ENCRYPT_FILE_NAMES": "Dulkóða skráarnöfn"
+  },
+  "SETTINGS": "Stillingar",
+  "LANGUAGE": "Tungumál",
+  "OK": "Í lagi",
+  "CANCEL": "Hætta við"
+}

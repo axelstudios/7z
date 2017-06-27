@@ -1,0 +1,40 @@
+{
+  "ARCHIVE_FORMAT": "Awayê arşîvê",
+  "COMPRESSION_LEVEL": "Asta şidandinê",
+  "COMPRESSION_LEVELS": {
+    "0": "Bêyî şidandin",
+    "1": "Leztirîn",
+    "3": "Bi Lez",
+    "5": "Asayî",
+    "7": "Herî Pir"
+  },
+  "COMPRESSION_METHOD": "Awayê şidandinê",
+  "DICTIONARY_SIZE": "Mezinahiya ferhengê",
+  "WORD_SIZE": "Mezinahiya bêjeyê",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Bikaranîna bîrê (Şidandin)",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Bikaranîna bîrê (Vekirin)",
+  "SPLIT_TO_VOLUME_BYTES": "Wekî Bayt/cilt bike parçe",
+  "UPDATE_MODE": "Awayê rojanekirinê",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Dosiyan têxê, yên heyî derxe",
+    "UPDATE_AND_ADD_FILES": "Dosiyan têxê, yên kevin rojane bike",
+    "FRESHEN_EXISTING_FILES": "Bi tenê yên kevin rojane bike",
+    "SYNCHRONIZE_FILES": "Dosiyan bike wekî hev"
+  },
+  "PATH_MODE": "Navê Rê",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Navê tevahî yên rê"
+  },
+  "OPTIONS_TITLE": "Vebijêrk",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Bila ew bixwe derxe (SFX)"
+  },
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Şîfreyê binivîse",
+    "ENCRYPT_FILE_NAMES": "Navên dosiyê bike şîfre"
+  },
+  "SETTINGS": "Mîheng",
+  "LANGUAGE": "Ziman",
+  "OK": "Temam",
+  "CANCEL": "Betal"
+}

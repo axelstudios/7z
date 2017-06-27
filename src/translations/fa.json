@@ -1,0 +1,50 @@
+{
+  "ARCHIVE_FORMAT": "فرمت آرشیو",
+  "COMPRESSION_LEVEL": "ميزان فشرده‌سازی",
+  "COMPRESSION_LEVELS": {
+    "0": "ذخیره",
+    "1": "سریعترین",
+    "3": "سریع",
+    "5": "عادی",
+    "7": "حداکثر",
+    "9": "مافوق"
+  },
+  "COMPRESSION_METHOD": "روش فشرده سازی",
+  "DICTIONARY_SIZE": "حجم لغت نامه",
+  "WORD_SIZE": "اندازه لغت",
+  "SOLID_BLOCK_SIZE": "حجم بلوک یکدست",
+  "SOLID_BLOCK_SIZES": {
+    "off": "غیر-یکدست",
+    "on": "یکدست"
+  },
+  "NUMBER_OF_CPU_THREADS": "تعداد هسته پردازنده",
+  "MEMORY_USAGE_FOR_COMPRESSING": "حافظه مصرفی برای فشرده سازی",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "حافظه مصرفی برای استخراج",
+  "SPLIT_TO_VOLUME_BYTES": "تقسیم به چندین بخش،برحسب بایت",
+  "UPDATE_MODE": "حالت بروزرسانی",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "افزودن و جایگزینی فایل ها",
+    "UPDATE_AND_ADD_FILES": "بروزرسانی و افزودن فایل ها",
+    "FRESHEN_EXISTING_FILES": "تازه کردن فایل های موجود",
+    "SYNCHRONIZE_FILES": "همگامسازی فایل ها"
+  },
+  "PATH_MODE": "نوع مسیر",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "نام مسیر کامل"
+  },
+  "OPTIONS_TITLE": "گزینه ها",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "ایجاد ارشیو خوداستخراجگر",
+    "COMPRESS_SHARED_FILES": "فشرده سازی فایل های مشترک درسایر برنامه ها"
+  },
+  "ENCRYPTION_TITLE": "رمزگذاری",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "رمزعبور",
+    "ENCRYPTION_METHOD": "روش رمزگذاری",
+    "ENCRYPT_FILE_NAMES": "رمزگذاری نام فایل ها"
+  },
+  "SETTINGS": "تنظیمات",
+  "LANGUAGE": "زبان",
+  "OK": "تایید",
+  "CANCEL": "لغو"
+}

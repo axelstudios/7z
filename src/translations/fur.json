@@ -1,0 +1,51 @@
+{
+  "ARCHIVE_FORMAT": "Formât archivi",
+  "COMPRESSION_LEVEL": "Nivel di compression",
+  "COMPRESSION_LEVELS": {
+    "0": "Cence compression",
+    "1": "Il pi svelt",
+    "3": "Svelt",
+    "5": "Normâl",
+    "7": "Massim",
+    "9": "Super"
+  },
+  "COMPRESSION_METHOD": "Metodi di compression",
+  "DICTIONARY_SIZE": "Dimension dizionari",
+  "WORD_SIZE": "Dimension peraule",
+  "SOLID_BLOCK_SIZE": "Dimension bloc solit",
+  "SOLID_BLOCK_SIZES": {
+    "off": "No-solit",
+    "on": "Solit"
+  },
+  "NUMBER_OF_CPU_THREADS": "Numar di threads de CPU",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Utilizazion memorie comprimint",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Utilizazion memorie decomprimint",
+  "SPLIT_TO_VOLUME_BYTES": "Divît in volums, grandece in bytes",
+  "UPDATE_MODE": "Mût di atualizazion",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Zonte e sostituìs files",
+    "UPDATE_AND_ADD_FILES": "Atualize e zonte files",
+    "FRESHEN_EXISTING_FILES": "Atualize i files che esistin",
+    "SYNCHRONIZE_FILES": "Sincronize i files"
+  },
+  "PATH_MODE": "Struture des cartelis",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Percors intîrs"
+  },
+  "OPTIONS_TITLE": "Opzions",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Cree archivi SFX",
+    "COMPRESS_SHARED_FILES": "Comprim i files condividûts",
+    "DELETE_FILES_AFTER_COMPRESSION": "Delete files after compression"
+  },
+  "ENCRYPTION_TITLE": "Ciframent",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Scrîf la peraule clâf",
+    "ENCRYPTION_METHOD": "Metodi di ciframent",
+    "ENCRYPT_FILE_NAMES": "Cifre i nons dai files"
+  },
+  "SETTINGS": "Configurazion",
+  "LANGUAGE": "Lenghe",
+  "OK": "Va ben",
+  "CANCEL": "Scancele"
+}

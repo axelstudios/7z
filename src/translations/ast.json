@@ -1,0 +1,41 @@
+{
+  "ARCHIVE_FORMAT": "Formatu del archivu",
+  "COMPRESSION_LEVEL": "Nivel de compresión",
+  "COMPRESSION_LEVELS": {
+    "0": "Nenguna",
+    "1": "Más rápida",
+    "3": "Rápida",
+    "7": "Másima"
+  },
+  "COMPRESSION_METHOD": "Métodu de compresión",
+  "DICTIONARY_SIZE": "Tamañu del Diccionariu",
+  "WORD_SIZE": "Tamañu de la pallabra",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Usu de memoria pa la compresión",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Usu de memoria pa la descompresión",
+  "SPLIT_TO_VOLUME_BYTES": "Partir en cachos, bytes",
+  "UPDATE_MODE": "Mou d´actualización",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Añedir y sustituyir ficheros",
+    "UPDATE_AND_ADD_FILES": "Actualizar y añedir ficheros",
+    "FRESHEN_EXISTING_FILES": "Actualizar ficheros esistentes",
+    "SYNCHRONIZE_FILES": "Sincronizar ficheros"
+  },
+  "PATH_MODE": "Mou de ruta",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Nomes de ruta completos"
+  },
+  "OPTIONS_TITLE": "Opciones",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Crear archivu SFX",
+    "COMPRESS_SHARED_FILES": "Compress shared files",
+    "DELETE_FILES_AFTER_COMPRESSION": "Delete files after compression"
+  },
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Introduz clave",
+    "ENCRYPT_FILE_NAMES": "Cifrar nomes de ficheru"
+  },
+  "SETTINGS": "Igües",
+  "LANGUAGE": "Llingua",
+  "OK": "Val",
+  "CANCEL": "Torgar"
+}

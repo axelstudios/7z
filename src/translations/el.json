@@ -1,0 +1,58 @@
+{
+  "ARCHIVE_FORMAT": "Συμπίεση στη μορφή",
+  "COMPRESSION_LEVEL": "Επίπεδο συμπίεσης",
+  "COMPRESSION_LEVELS": {
+    "0": "Αποθήκευση",
+    "1": "Πολύ γρήγορη",
+    "3": "Γρήγορη",
+    "5": "Κανονική",
+    "7": "Μέγιστη",
+    "9": "Υπερσυμπίεση"
+  },
+  "COMPRESSION_METHOD": "Μέθοδος συμπίεσης",
+  "DICTIONARY_SIZE": "Μέγεθος λεξικού",
+  "WORD_SIZE": "Μέγεθος λέξης",
+  "SOLID_BLOCK_SIZE": "Μέγεθος συμπαγούς μπλοκ",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Μη-συμπαγές",
+    "on": "Συμπαγές"
+  },
+  "NUMBER_OF_CPU_THREADS": "Αριθμός νημάτων CPU",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Χρήση μνήμης για συμπίεση",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Χρήση μνήμης για αποσυμπίεση",
+  "SPLIT_TO_VOLUME_BYTES": "Τεμαχισμός σε τόμους",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "Αποθήκευση συμβολικών συνδέσμων",
+    "STORE_HARD_LINKS": "Αποθήκευση σταθερών συνδέσμων",
+    "STORE_ALTERNATE_DATA_STREAMS": "Αποθήκευση ενναλλακτικών ροών δεδομένων",
+    "STORE_FILE_SECURITY": "Αποθήκευση ασφάλειας αρχείου"
+  },
+  "UPDATE_MODE": "Τρόπος ενημέρωσης",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Προσθήκη και αντικατάσταση αρχείων",
+    "UPDATE_AND_ADD_FILES": "Προσθήκη και ενημέρωση αρχείων",
+    "FRESHEN_EXISTING_FILES": "Ενημέρωση των υπαρχόντων αρχείων",
+    "SYNCHRONIZE_FILES": "Συγχρονισμός αρχείων"
+  },
+  "PATH_MODE": "Επιλογές διαδρομών φακέλων",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "Σχετικές διαδρομές φακέλων",
+    "FULL_PATHNAMES": "Πλήρεις διαδρομές φακέλων",
+    "ABSOLUTE_PATHNAMES": "Απόλυτες διαδρομές φακέλων"
+  },
+  "OPTIONS_TITLE": "Επιλογές συμπίεσης",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Με αυτόματη αποσυμπίεση (SFX)",
+    "COMPRESS_SHARED_FILES": "Συμπίεση κοινών αρχείων",
+    "DELETE_FILES_AFTER_COMPRESSION": "Διαγραφή αρχείων μετά τη συμπίεση"
+  },
+  "ENCRYPTION_TITLE": "Κρυπτογράφηση",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Κωδικός πρόσβασης",
+    "ENCRYPTION_METHOD": "Μέθοδος κρυπτογράφησης",
+    "ENCRYPT_FILE_NAMES": "Κρυπτογράφηση των ονομάτων"
+  },
+  "SETTINGS": "Επιλογές",
+  "LANGUAGE": "Γλώσσα",
+  "CANCEL": "Άκυρο"
+}

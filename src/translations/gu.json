@@ -1,0 +1,50 @@
+{
+  "ARCHIVE_FORMAT": "સંગ્રહ ઢાઁચા",
+  "COMPRESSION_LEVEL": "સંકુચન સ્તર",
+  "COMPRESSION_LEVELS": {
+    "0": "ભંડારણ",
+    "1": "સર્વાધિક તેજ",
+    "3": "તેજ",
+    "5": "સાધારણ",
+    "7": "અધિકતમ",
+    "9": "અત્યન્ત"
+  },
+  "COMPRESSION_METHOD": "સંકુચન વિધિ",
+  "DICTIONARY_SIZE": "શબ્દકોશ આકાર",
+  "WORD_SIZE": "શબ્દ આકાર",
+  "SOLID_BLOCK_SIZE": "ઠોસ ટુકડાનો આકાર",
+  "SOLID_BLOCK_SIZES": {
+    "off": "અ-ઠોસ",
+    "on": "ઠોસ"
+  },
+  "NUMBER_OF_CPU_THREADS": "સીપીયૂ સૂત્ર સંખ્યા",
+  "MEMORY_USAGE_FOR_COMPRESSING": "સંકુચન માટે સ્મૃતિ પ્રયોગ",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "પ્રસારણ માટે સ્મૃતિ પ્રયોગ",
+  "SPLIT_TO_VOLUME_BYTES": "જત્થાઓમાં વિભાજન, બાઇટ્સ",
+  "UPDATE_MODE": "અદ્યતનીકરણ સ્થિતિ(મોડ)",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "ફ઼ાઇલેં જોડો અને પ્રતિસ્થાપિત કરો",
+    "UPDATE_AND_ADD_FILES": "ફાઇલો અદ્યતનીકૃત કરો અને જોડો",
+    "FRESHEN_EXISTING_FILES": "અવસ્થિત ફાઇલોં તાજા કરો",
+    "SYNCHRONIZE_FILES": "ફાઇલોં સમક્રમણ(સિંક્રોનાઈજ઼) કરો"
+  },
+  "PATH_MODE": "માર્ગ સ્થિતિ",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "આખો માર્ગનામ"
+  },
+  "OPTIONS_TITLE": "વિકલ્પ",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "એસએફ઼એક્સ(SFX) સંગ્રહ તૈયાર કરો",
+    "COMPRESS_SHARED_FILES": "સાઝી ફાઇલો સંકુચિત કરો"
+  },
+  "ENCRYPTION_TITLE": "ગુપ્તિકરણ",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "કૂટશબ્દ(પાસવર્ડ) ડાલે",
+    "ENCRYPTION_METHOD": "ગુપ્તિકરણ પદ્ધતિ",
+    "ENCRYPT_FILE_NAMES": "ફ઼ાઇલ નામ ગુપ્તિકરણ કરો"
+  },
+  "SETTINGS": "વ્યવસ્થાઓ",
+  "LANGUAGE": "ભાષા",
+  "OK": "સારું",
+  "CANCEL": "રદ્દ"
+}

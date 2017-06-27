@@ -1,0 +1,58 @@
+{
+  "ARCHIVE_FORMAT": "Artxibo heuskarria",
+  "COMPRESSION_LEVEL": "Konpresio maila",
+  "COMPRESSION_LEVELS": {
+    "0": "Biltegia",
+    "1": "Azkarrena",
+    "3": "Azkarra",
+    "5": "Arrunta",
+    "7": "Gehiena"
+  },
+  "COMPRESSION_METHOD": "Konpresio metodoa",
+  "DICTIONARY_SIZE": "Hiztegi neurria",
+  "WORD_SIZE": "Hitz neurria",
+  "SOLID_BLOCK_SIZE": "Bloke solidoaren neurria",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Ez-solidoa",
+    "on": "Solidoa"
+  },
+  "NUMBER_OF_CPU_THREADS": "CPU hari zenbatekoa",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Oroimen erabilera Konprimitzeko",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Oroimen erabilera Deskonprimitzeko",
+  "SPLIT_TO_VOLUME_BYTES": "Banandu bolumenetan, byte",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "Biltegiratu lotura sinbolikoak",
+    "STORE_HARD_LINKS": "Biltegiratu lotura gogorrak",
+    "STORE_ALTERNATE_DATA_STREAMS": "Biltegiratu aldikatu datu jarioak",
+    "STORE_FILE_SECURITY": "Biltegiratu agiri segurtasuna"
+  },
+  "UPDATE_MODE": "Eguneraketa modua",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Gehitu eta ordeztu agiriak",
+    "UPDATE_AND_ADD_FILES": "Eguneratu eta gehitu agiriak",
+    "FRESHEN_EXISTING_FILES": "Berritu dauden agiriak",
+    "SYNCHRONIZE_FILES": "Aldiberetu agiriak"
+  },
+  "PATH_MODE": "Helburu modua",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "Helburu-izen erlatiboak",
+    "FULL_PATHNAMES": "Helburu-izen osoak",
+    "ABSOLUTE_PATHNAMES": "Helburu-izen absolutoak"
+  },
+  "OPTIONS_TITLE": "Aukerak",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Sortu SFX artxiboa",
+    "COMPRESS_SHARED_FILES": "Konprimitu elkarbanaturiko agiriak",
+    "DELETE_FILES_AFTER_COMPRESSION": "Ezabatu agiriak konprimitu ondoren"
+  },
+  "ENCRYPTION_TITLE": "Enkriptaketa",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Sartu sarhitza",
+    "ENCRYPTION_METHOD": "Enkriptaketa metodoa",
+    "ENCRYPT_FILE_NAMES": "Enkriptatu agiri izenak"
+  },
+  "SETTINGS": "Ezarpenak",
+  "LANGUAGE": "Hizkuntza",
+  "OK": "Ongi",
+  "CANCEL": "Ezeztatu"
+}

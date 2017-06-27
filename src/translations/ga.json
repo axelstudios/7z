@@ -1,0 +1,50 @@
+{
+  "ARCHIVE_FORMAT": "Formáid na cartlainne",
+  "COMPRESSION_LEVEL": "Méid comhbhrúite",
+  "COMPRESSION_LEVELS": {
+    "0": "Taisc",
+    "1": "Is gasta",
+    "3": "Gasta",
+    "5": "Gnáth",
+    "7": "Uasmhéid",
+    "9": "Fíorghasta"
+  },
+  "COMPRESSION_METHOD": "Modh comhbhrúite",
+  "DICTIONARY_SIZE": "Méid an fhoclóra",
+  "WORD_SIZE": "Méid na bhfocal",
+  "SOLID_BLOCK_SIZE": "Méid an chip fhothúla",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Neamhfhothúil",
+    "on": "Fothúil"
+  },
+  "NUMBER_OF_CPU_THREADS": "Líon na snáitheanna LAP",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Cuimhne don chomhbhrúigh",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Cuimhne don dhíchomhbhrúigh",
+  "SPLIT_TO_VOLUME_BYTES": "Roinn in imleabhair, bearta",
+  "UPDATE_MODE": "Modh nuashonraithe",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Cuir comhaid leis agus ionadaigh",
+    "UPDATE_AND_ADD_FILES": "Nuashonraigh na comhaid agus cuir leo",
+    "FRESHEN_EXISTING_FILES": "Athnuaigh comhaid atá ann cheana",
+    "SYNCHRONIZE_FILES": "Comhionannaigh na comhaid"
+  },
+  "PATH_MODE": "Conairí",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Conairí iomlána"
+  },
+  "OPTIONS_TITLE": "Roghanna",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Cruthaigh cartlann SFX",
+    "COMPRESS_SHARED_FILES": "Comhbhrúigh na comhaid a roinneadh"
+  },
+  "ENCRYPTION_TITLE": "Criptiú",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Cuir an focal faire isteach",
+    "ENCRYPTION_METHOD": "Modh criptiúcháin",
+    "ENCRYPT_FILE_NAMES": "Criptigh ainmneacha na gcomhad"
+  },
+  "SETTINGS": "Socruithe",
+  "LANGUAGE": "Teanga",
+  "OK": "Tá go maith",
+  "CANCEL": "Cealaigh"
+}

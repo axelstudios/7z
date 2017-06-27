@@ -22,7 +22,7 @@
   "MEMORY_USAGE_FOR_COMPRESSING": "Memory usage for Compressing",
   "MEMORY_USAGE_FOR_DECOMPRESSING": "Memory usage for Decompressing",
   "SPLIT_TO_VOLUME_BYTES": "Split to volume, bytes",
-  "SPLIT_TO_VOLUME_FORMAT": "Expected format: {Size}[b | k | m | g]",
+  "SPLIT_TO_VOLUME_FORMAT": "Expected format: {Size}[b | k | m | g | t]",
   "NTFS_TITLE": "NTFS",
   "NTFS": {
     "STORE_SYMBOLIC_LINKS": "Store symbolic links",

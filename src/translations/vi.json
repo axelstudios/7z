@@ -1,0 +1,49 @@
+{
+  "ARCHIVE_FORMAT": "Dạng tệp nén",
+  "COMPRESSION_LEVEL": "Mức độ nén",
+  "COMPRESSION_LEVELS": {
+    "0": "Lưu trữ",
+    "1": "Nhanh nhất",
+    "3": "Nhanh",
+    "5": "Bình thường",
+    "7": "Tối đa",
+    "9": "Siêu nhanh"
+  },
+  "COMPRESSION_METHOD": "Phương thức nén",
+  "DICTIONARY_SIZE": "Kích cỡ thư mục",
+  "WORD_SIZE": "Kích cỡ văn bản",
+  "SOLID_BLOCK_SIZE": "Kích cỡ nén Solid",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Không nén dạng Solid"
+  },
+  "NUMBER_OF_CPU_THREADS": "Số luồng xử lý CPU",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Bộ nhớ dùng cho việc nén",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Bộ nhớ dùng cho việc giải nén",
+  "SPLIT_TO_VOLUME_BYTES": "Chia thành nhiều phần, bytes",
+  "UPDATE_MODE": "Chế độ cập nhật",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Thêm và thay thế",
+    "UPDATE_AND_ADD_FILES": "Thêm và cập nhật",
+    "FRESHEN_EXISTING_FILES": "Cập nhật tập tin đã có",
+    "SYNCHRONIZE_FILES": "Đồng bộ"
+  },
+  "PATH_MODE": "Chọn đường dẫn",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Đường dẫn đầy đủ"
+  },
+  "OPTIONS_TITLE": "Tùy chọn",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Tạo trình tự giải nén tệp",
+    "COMPRESS_SHARED_FILES": "Nén tập tin chia sẻ"
+  },
+  "ENCRYPTION_TITLE": "Mã hóa",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Nhập mật khẩu",
+    "ENCRYPTION_METHOD": "Phương thức mã hóa",
+    "ENCRYPT_FILE_NAMES": "Mã hoá tên tệp"
+  },
+  "SETTINGS": "Thiết lập",
+  "LANGUAGE": "Ngôn ngữ hiển thị",
+  "OK": "Đồng ý",
+  "CANCEL": "Hủy bỏ"
+}

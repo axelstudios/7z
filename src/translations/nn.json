@@ -1,0 +1,46 @@
+{
+  "ARCHIVE_FORMAT": "Arkiv format",
+  "COMPRESSION_LEVEL": "Kompresjons nivå",
+  "COMPRESSION_LEVELS": {
+    "0": "Lagre",
+    "1": "Raskast",
+    "3": "Rask",
+    "7": "Maksimum",
+    "9": "Ekstrem"
+  },
+  "COMPRESSION_METHOD": "Kompresjons metode",
+  "DICTIONARY_SIZE": "Ordbok størrelse",
+  "WORD_SIZE": "Ord størrelse",
+  "SOLID_BLOCK_SIZE": "Solid blokk størrelse",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Ikkje-solid"
+  },
+  "NUMBER_OF_CPU_THREADS": "Anntal CPU tråder",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Minnebruk ved kompresjon",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Minnebruk ved ut-pakking",
+  "SPLIT_TO_VOLUME_BYTES": "Splitt opp i deler, byte",
+  "UPDATE_MODE": "Oppdaterings modus",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Legg til og skriv over filer",
+    "UPDATE_AND_ADD_FILES": "Oppdatere og legg til filer",
+    "FRESHEN_EXISTING_FILES": "Frisk opp eksisterande filer",
+    "SYNCHRONIZE_FILES": "Synkroniser filer"
+  },
+  "PATH_MODE": "Bane modus",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Fulstendig banenamn"
+  },
+  "OPTIONS_TITLE": "Val",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Opprett SFX arkiv"
+  },
+  "ENCRYPTION_TITLE": "Krypter",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Skriv inn passord",
+    "ENCRYPTION_METHOD": "Krypter metode",
+    "ENCRYPT_FILE_NAMES": "Krypter filnamn"
+  },
+  "SETTINGS": "Innstillinger",
+  "LANGUAGE": "Språk",
+  "CANCEL": "Avbryt"
+}

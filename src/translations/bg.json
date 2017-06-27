@@ -1,0 +1,48 @@
+{
+  "ARCHIVE_FORMAT": "Формат на архива",
+  "COMPRESSION_LEVEL": "Ниво на компресия",
+  "COMPRESSION_LEVELS": {
+    "0": "Без компресия",
+    "1": "Най-бърза",
+    "3": "Бърза",
+    "5": "Нормална",
+    "7": "Максимална",
+    "9": "Ултра"
+  },
+  "COMPRESSION_METHOD": "Метод за компресия",
+  "DICTIONARY_SIZE": "Размер на речника",
+  "WORD_SIZE": "Размер на думата",
+  "SOLID_BLOCK_SIZE": "Размер на непрекъснат блок",
+  "SOLID_BLOCK_SIZES": {
+    "on": "Непрекъсната (solid) компресия"
+  },
+  "NUMBER_OF_CPU_THREADS": "Брой процесорни нишки",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Използвана памет за архивиране",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Използвана памет за разархивиране",
+  "SPLIT_TO_VOLUME_BYTES": "Разделяне на томове, байтове",
+  "UPDATE_MODE": "Режим за изменение",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Добавяне и замяна на файлове",
+    "UPDATE_AND_ADD_FILES": "Обновяване и добавяне на файлове",
+    "FRESHEN_EXISTING_FILES": "Опресняване на съществуващите файлове",
+    "SYNCHRONIZE_FILES": "Синхронизиране на файловете"
+  },
+  "PATH_MODE": "Режим за пътищата",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Пълни пътища"
+  },
+  "OPTIONS_TITLE": "Опции",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Саморазархивиращ се архив",
+    "COMPRESS_SHARED_FILES": "Компресирани споделени файлове"
+  },
+  "ENCRYPTION_TITLE": "Криптиране",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Въведете парола",
+    "ENCRYPTION_METHOD": "Метод за криптиране",
+    "ENCRYPT_FILE_NAMES": "Криптиране на файловите имена"
+  },
+  "SETTINGS": "Настройки",
+  "LANGUAGE": "Eзик",
+  "CANCEL": "Отказ"
+}

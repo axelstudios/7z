@@ -1,0 +1,48 @@
+{
+  "ARCHIVE_FORMAT": "Arxiv formati",
+  "COMPRESSION_LEVEL": "Siquv bosqichi",
+  "COMPRESSION_LEVELS": {
+    "0": "Saqlash",
+    "1": "Eng tez",
+    "3": "Tez",
+    "5": "O'rtacha",
+    "7": "Eng zo'r"
+  },
+  "COMPRESSION_METHOD": "Siquv metodi",
+  "DICTIONARY_SIZE": "Lug'at hajmi",
+  "WORD_SIZE": "So'z hajmi",
+  "SOLID_BLOCK_SIZE": "Yaxlit blok hajmi",
+  "SOLID_BLOCK_SIZES": {
+    "off": "No-yaxlit",
+    "on": "Yaxlit"
+  },
+  "NUMBER_OF_CPU_THREADS": "CPU oqimlari soni",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Siquvda ishlatiladigan xotira",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Ajratuvda ishlatiladigan xotira",
+  "SPLIT_TO_VOLUME_BYTES": "Tomlarga bo'lakla, bayt",
+  "UPDATE_MODE": "Yangilash uslubi",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Fayllarni qo'sh va almashtir",
+    "UPDATE_AND_ADD_FILES": "Fayllarni yangila va qo'sh",
+    "FRESHEN_EXISTING_FILES": "Mavjud fayllarni yangila",
+    "SYNCHRONIZE_FILES": "Fayllarni sinxronla"
+  },
+  "PATH_MODE": "Yo'lak uslubi",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "To'liq yo'lak nomlari"
+  },
+  "OPTIONS_TITLE": "Tanlovlar",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "SFX arxiv yarat",
+    "COMPRESS_SHARED_FILES": "Baham ko'rilgan fayllarni ham siq"
+  },
+  "ENCRYPTION_TITLE": "Tilsimlash",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Parolni kiriting",
+    "ENCRYPTION_METHOD": "Tilsimlash metodi",
+    "ENCRYPT_FILE_NAMES": "Fayl nomlarini tilsimla"
+  },
+  "SETTINGS": "Sharoit",
+  "LANGUAGE": "Til",
+  "CANCEL": "Bekor"
+}

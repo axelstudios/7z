@@ -1,0 +1,48 @@
+{
+  "ARCHIVE_FORMAT": "Formát archivu",
+  "COMPRESSION_LEVEL": "Úroveň komprese",
+  "COMPRESSION_LEVELS": {
+    "0": "Skladovací",
+    "1": "Nejrychlejší",
+    "3": "Rychlá",
+    "5": "Normální",
+    "7": "Maximální"
+  },
+  "COMPRESSION_METHOD": "Komprimační metoda",
+  "DICTIONARY_SIZE": "Velikost slovníku",
+  "WORD_SIZE": "Velikost slova",
+  "SOLID_BLOCK_SIZE": "Velikost bloku",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Podle velikosti souboru",
+    "on": "Pevný"
+  },
+  "NUMBER_OF_CPU_THREADS": "Počet vláken procesoru",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Spotřeba paměti pro zabalení",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Spotřeba paměti pro rozbalení",
+  "SPLIT_TO_VOLUME_BYTES": "Rozdělit na díly, bajtů",
+  "UPDATE_MODE": "Způsob aktualizace",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Přidat a nahradit soubory",
+    "UPDATE_AND_ADD_FILES": "Aktualizovat a přidat soubory",
+    "FRESHEN_EXISTING_FILES": "Aktualizovat existující soubory",
+    "SYNCHRONIZE_FILES": "Synchronizovat soubory"
+  },
+  "PATH_MODE": "Cesty",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "Plné cesty"
+  },
+  "OPTIONS_TITLE": "Možnosti",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Vytvořit SFX archiv",
+    "COMPRESS_SHARED_FILES": "Zkomprimovat otevřené soubory"
+  },
+  "ENCRYPTION_TITLE": "Zakódování",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Vložit heslo",
+    "ENCRYPTION_METHOD": "Metoda zakódování",
+    "ENCRYPT_FILE_NAMES": "Zakódovat názvy souborů"
+  },
+  "SETTINGS": "Nastavení",
+  "LANGUAGE": "Jazyk",
+  "CANCEL": "Storno"
+}

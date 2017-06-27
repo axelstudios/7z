@@ -1,0 +1,57 @@
+{
+  "ARCHIVE_FORMAT": "Format arsip",
+  "COMPRESSION_LEVEL": "Level mampat",
+  "COMPRESSION_LEVELS": {
+    "0": "Simpan",
+    "1": "Tercepat",
+    "3": "Cepat",
+    "7": "Maksimum"
+  },
+  "COMPRESSION_METHOD": "Metode mampat",
+  "DICTIONARY_SIZE": "Ukuran kamus",
+  "WORD_SIZE": "Ukuran kata",
+  "SOLID_BLOCK_SIZE": "Ukuran blok padat",
+  "SOLID_BLOCK_SIZES": {
+    "off": "Non-padat",
+    "on": "Padat"
+  },
+  "NUMBER_OF_CPU_THREADS": "Jumlah CPU",
+  "MEMORY_USAGE_FOR_COMPRESSING": "Pemakaian memori untuk Pemampatan",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "Pemakaian memori untuk Pengawamampatan",
+  "SPLIT_TO_VOLUME_BYTES": "Belah ke volume, bita",
+  "NTFS": {
+    "STORE_SYMBOLIC_LINKS": "Simpan tautan simbolik",
+    "STORE_HARD_LINKS": "Simpan tautan keras",
+    "STORE_ALTERNATE_DATA_STREAMS": "Simpan alternatif aliran data",
+    "STORE_FILE_SECURITY": "Simpan keamanan berkas"
+  },
+  "UPDATE_MODE": "Ragam perbaru",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "Tambah dan ganti berkas",
+    "UPDATE_AND_ADD_FILES": "Perbarui dan tambah berkas",
+    "FRESHEN_EXISTING_FILES": "Segarkan ulang berkas yang ada",
+    "SYNCHRONIZE_FILES": "Sinkronisasikan berkas"
+  },
+  "PATH_MODE": "Ragam lintasan",
+  "PATH_MODES": {
+    "RELATIVE_PATHNAMES": "Nama lintasan relatif",
+    "FULL_PATHNAMES": "Nama lengkap lintasan",
+    "ABSOLUTE_PATHNAMES": "Nama lintasan absolut"
+  },
+  "OPTIONS_TITLE": "Pilihan",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "Buat arsip SFX",
+    "COMPRESS_SHARED_FILES": "Kompres berkas bersama",
+    "DELETE_FILES_AFTER_COMPRESSION": "Hapus berkas setelah dimampatkan"
+  },
+  "ENCRYPTION_TITLE": "Enkripsi",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "Masukkan kata sandi",
+    "ENCRYPTION_METHOD": "Metode enkripsi",
+    "ENCRYPT_FILE_NAMES": "Enkripsi nama berkas"
+  },
+  "SETTINGS": "Pengaturan",
+  "LANGUAGE": "Bahasa",
+  "OK": "Oke",
+  "CANCEL": "Batal"
+}

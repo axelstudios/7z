@@ -1,0 +1,50 @@
+{
+  "ARCHIVE_FORMAT": "ᠠᠪᠴᠢᠮᠠᠯ  ᠤᠨ ᠬᠡᠯᠪᠡᠷᠢ",
+  "COMPRESSION_LEVEL": "ᠠᠪᠴᠢᠶᠠᠬᠤ ᠳᠡᠰ",
+  "COMPRESSION_LEVELS": {
+    "0": "ᠵᠥᠪᠬᠡᠨ ᠬᠠᠳᠠᠭᠠᠯᠠᠬᠤ",
+    "1": "ᠣᠨᠴᠠ ᠬᠤᠷᠳᠤᠨ ᠠᠪᠴᠢᠶᠠᠬᠤ",
+    "3": "ᠬᠤᠷᠳᠤᠨ ᠠᠪᠴᠢᠶᠠᠬᠤ",
+    "5": "ᠪᠠᠷᠢᠮᠵᠢᠶ᠎ᠠ ᠠᠪᠴᠢᠶᠠᠬᠤ",
+    "7": "ᠬᠠᠮᠤᠭ ᠶᠡᠬᠡ ᠠᠪᠴᠢᠶᠠᠬᠤ",
+    "9": "ᠴᠢᠨᠠᠷᠯᠠᠩᠭᠤᠢ ᠠᠪᠴᠢᠶᠠᠬᠤ"
+  },
+  "COMPRESSION_METHOD": "ᠠᠪᠴᠢᠶᠠᠬᠤ ᠠᠷᠭ᠎ᠠ",
+  "DICTIONARY_SIZE": "ᠲᠣᠯᠢ  ᠶᠢᠨ ᠶᠡᠬᠡ ᠪᠠᠭ᠎ᠠ",
+  "WORD_SIZE": "ᠳᠠᠩ ᠦᠭᠡᠰ  ᠦᠨ ᠶᠡᠬᠡ ᠪᠠᠭ᠎ᠠ",
+  "SOLID_BLOCK_SIZE": "ᠲᠣᠭ᠎ᠠ ᠪᠠᠷᠢᠮᠲᠠ  ᠶᠢᠨ ᠶᠡᠬᠡ ᠪᠠᠭ᠎ᠠ",
+  "SOLID_BLOCK_SIZES": {
+    "off": "ᠲᠡᠭᠡ",
+    "on": "ᠪᠤᠯᠢ"
+  },
+  "NUMBER_OF_CPU_THREADS": "CPU ᠬᠡᠷᠡᠭᠯᠡᠭᠰᠡᠨ ᠬᠡᠮᠵᠢᠶ᠎ᠡ",
+  "MEMORY_USAGE_FOR_COMPRESSING": "ᠠᠪᠴᠢᠶᠠᠯᠠᠬᠤ ᠳ᠋ᠥ ᠬᠡᠷᠡᠭᠯᠡᠬᠦ ᠷᠠᠮ",
+  "MEMORY_USAGE_FOR_DECOMPRESSING": "ᠵᠠᠳᠠᠯᠬᠤ ᠳ᠋ᠥ ᠬᠡᠷᠡᠭᠯᠡᠬᠦ ᠷᠠᠮ",
+  "SPLIT_TO_VOLUME_BYTES": "ᠡᠪᠬᠡᠮᠡᠯ ᠬᠤᠪᠢᠶᠠᠬᠤ ᠶᠡᠬᠡ ᠪᠠᠭ᠎ᠠ",
+  "UPDATE_MODE": "ᠰᠢᠨᠡᠳᠬᠡᠬᠦ ᠬᠡᠯᠪᠡᠷᠢ",
+  "UPDATE_MODES": {
+    "ADD_AND_REPLACE_FILES": "ᠹᠠᠶᠢᠯ ᠨᠡᠮᠡᠭᠡᠳ ᠰᠣᠯᠢᠬᠤ",
+    "UPDATE_AND_ADD_FILES": "ᠹᠠᠶᠢᠯ  ᠢ ᠰᠢᠨᠡᠳᠬᠡᠭᠡᠳ ᠨᠡᠮᠡᠬᠦ",
+    "FRESHEN_EXISTING_FILES": "ᠪᠠᠶᠢᠬᠤ ᠹᠠᠶᠢᠯ  ᠢ ᠰᠢᠨᠡᠳᠬᠡᠬᠦ",
+    "SYNCHRONIZE_FILES": "ᠠᠪᠴᠢᠮᠠᠯ  ᠤᠨ ᠠᠭᠤᠯᠭ᠎ᠠ  ᠶᠢ ᠵᠡᠷᠭᠡᠴᠡᠭᠦᠯᠬᠦ"
+  },
+  "PATH_MODE": "ᠵᠠᠮ  ᠤᠨ ᠬᠡᠯᠪᠡᠷᠢ",
+  "PATH_MODES": {
+    "FULL_PATHNAMES": "ᠪᠦᠷᠢᠨ ᠵᠠᠮ"
+  },
+  "OPTIONS_TITLE": "ᠰᠣᠩᠭᠣᠯᠲᠠ",
+  "OPTIONS": {
+    "CREATE_SFX_ARCHIVE": "ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠠᠴᠢᠶᠠᠯᠠᠭᠴᠢ ᠫᠷᠦᠭᠷᠡᠮ ᠪᠠᠶᠢᠭᠤᠯᠬᠤ",
+    "COMPRESS_SHARED_FILES": "ᠠᠪᠴᠢᠮᠠᠯ ᠹᠠᠶᠢᠯ  ᠢᠶᠠᠨ ᠬᠤᠪᠢᠶᠠᠯᠴᠠᠬᠤ"
+  },
+  "ENCRYPTION_TITLE": "ᠪᠠᠲᠤᠵᠢᠭᠤᠯᠬᠤ",
+  "ENCRYPTION": {
+    "ENTER_PASSWORD": "ᠨᠢᠭᠤᠴᠠ ᠨᠣᠮᠧᠷ ᠣᠷᠣᠭᠤᠯᠬᠤ",
+    "ENCRYPTION_METHOD": "ᠪᠠᠲᠤᠵᠢᠭᠤᠯᠬᠤ ᠲᠣᠭᠠᠴᠠᠬᠤ ᠠᠷᠭ᠎ᠠ",
+    "ENCRYPT_FILE_NAMES": "ᠪᠠᠲᠤ ᠹᠠᠶᠢᠯ  ᠤᠨ ᠨᠡᠷᠡᠶᠢᠳᠦᠯ"
+  },
+  "SETTINGS": "ᠢᠯᠡᠷᠡᠬᠦ",
+  "LANGUAGE": "ᠬᠡᠯᠡ",
+  "OK": "ᠲᠡᠭᠡ",
+  "CANCEL": "ᠤᠰᠠᠳᠬᠠᠬᠤ"
+}
