@@ -26,7 +26,7 @@
     "eslint-config-angular": "^0.5.0",
     "eslint-config-xo-space": "^0.16.0",
     "eslint-loader": "^1.8.0",
-    "eslint-plugin-angular": "^2.5.0",
+    "eslint-plugin-angular": "^3.0.0",
     "eslint-plugin-babel": "^4.0.1",
     "extract-text-webpack-plugin": "^2.0.0-rc.3",
     "gulp": "gulpjs/gulp#4ed9a4a3275559c73a396eff7e1fde3824951ebb",

@@ -58,11 +58,11 @@ span > md-select {
 }
 
 #output {
-  font-family: 'Hack', monospace;
-  min-height: 96px;
   line-height: 2em;
+  min-height: 96px;
   padding: 32px;
-  > span {
+  &, * {
+    font-family: 'Hack', monospace;
     user-select: text;
   }
 }
@@ -113,4 +113,13 @@ span > md-select {
 
 div[ng-message] {
   padding-bottom: 1px;
+}
+
+.keep-whitespace {
+  white-space: pre;
+}
+
+.placeholder {
+  font-style: italic;
+  opacity: 0.7;
 }

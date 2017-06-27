@@ -4,8 +4,8 @@ import {LANGUAGES} from './languages';
 
 export const wizard = {
   template: require('./wizard.html'),
-  /* @ngInject */
-  controller($log, $mdDialog, $mdToast) {
+  /** @ngInject */
+  controller($mdDialog, $mdToast) {
     this._ = _;
 
     // Functions
@@ -42,7 +42,12 @@ export const wizard = {
 
     this.openSettings = openSettings;
 
+    this.updateArchiveName = updateArchiveName;
+    this.updateFileNames = updateFileNames;
+
     // Input Options
+    this.archiveName = '<archive_name>';
+    this.fileNames = '[<file_names>...]';
     this.archiveFormats = _.keys(defaults);
     this.archiveFormat = '7z';
 
@@ -104,9 +109,9 @@ export const wizard = {
     function getCompressionMethod() {
       if (this.compressionMethod !== defaults[this.archiveFormat].compressionMethod) {
         if (this.archiveFormat === '7z') {
-          return `-m0${this.compressionMethod}`;
+          return `-m0=${this.compressionMethod}`;
         } else if (this.archiveFormat === 'zip') {
-          return `-mm${this.compressionMethod}`;
+          return `-mm=${this.compressionMethod}`;
         }
       }
     }
@@ -115,7 +120,7 @@ export const wizard = {
       if (this.getMaxThreads() > 1) {
         const defaultCpuThreads = _.min([this.cores, this.getMaxThreads()]);
         if (this.cpuThreads === 1) {
-          return '-mmtoff';
+          return '-mmt=off';
         } else if (this.cpuThreads !== defaultCpuThreads) {
           return `-mmt${this.cpuThreads}`;
         }
@@ -290,7 +295,7 @@ export const wizard = {
       if (!_.isEmpty(this.password) && _.includes(['7z', 'zip'], this.archiveFormat)) {
         if (_.includes(this.password, '"')) {
           return '-p';
-        } else if (/^[a-z0-9-'\\.*?=]+$/i.test(this.password)) {
+        } else if (/^[a-z0-9-'\\,.*?=!@#$%()_+[\]{};:/`~]+$/i.test(this.password)) {
           return `-p${this.password}`;
         }
         return `-p"${this.password}"`;
@@ -299,9 +304,7 @@ export const wizard = {
 
     function getPassTxt() {
       if (_.includes(this.password, '"') && _.includes(['7z', 'zip'], this.archiveFormat)) {
-        const pass = _.replace(this.password, /(["^<>&|])/g, char => {
-          return `^${char}`;
-        });
+        const pass = _.replace(this.password, /(["^<>&|])/g, char => `^${char}`);
         return `echo ${pass}> pass.txt`;
       }
     }
@@ -443,6 +446,16 @@ export const wizard = {
         targetEvent: $event,
         template: require('./dialogs/settings.html')
       });
+    }
+
+    function updateArchiveName(archiveName) {
+      this.archiveName = archiveName || '<archive_name>';
+      this.editingArchiveName = false;
+    }
+
+    function updateFileNames(fileNames) {
+      this.fileNames = fileNames || '[<file_names>...]';
+      this.editingFileNames = false;
     }
 
     this.archiveFormatChanged();

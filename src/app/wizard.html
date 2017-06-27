@@ -2,7 +2,7 @@
   <div id="output" layout="column" layout-align="center center">
     <span ng-if="$ctrl.getPassTxt()">{{ $ctrl.getPassTxt() }}</span>
     <span>
-      7z.exe
+      7z
       {{ $ctrl.getCommand() }}
       {{ $ctrl.getType() }}
       {{ $ctrl.getCompressionLevel() }}
@@ -18,12 +18,15 @@
       {{ $ctrl.getStoreFileSecurity() }}
       {{ $ctrl.getEncryptionMethod() }}
       {{ $ctrl.getEncryptFileNames() }}
-      {{ $ctrl.getPassword() }}
+      <span class="keep-whitespace">{{ $ctrl.getPassword() }}</span>
       {{ $ctrl.getPathMode() }}
       {{ $ctrl.getSfxArchive() }}
       {{ $ctrl.getCompressSharedFiles() }}
       {{ $ctrl.getDeleteFilesAfter() }}
-      &lt;archive_name&gt; [&lt;file_names&gt;...]
+      <text-input ng-if="$ctrl.editingArchiveName" text="$ctrl.archiveName" placeholder="<archive_name>" on-save="$ctrl.updateArchiveName(text)"></text-input>
+      <span class="keep-whitespace" ng-class="{placeholder: $ctrl.archiveName === '<archive_name>'}" ng-if="!$ctrl.editingArchiveName" ng-click="$ctrl.editingArchiveName = true;">{{ $ctrl.archiveName | archiveName }}</span>
+      <text-input ng-if="$ctrl.editingFileNames" text="$ctrl.fileNames" placeholder="[<file_names>...]" on-save="$ctrl.updateFileNames(text)"></text-input>
+      <span ng-class="{placeholder: $ctrl.fileNames === '[<file_names>...]'}" ng-if="!$ctrl.editingFileNames" ng-click="$ctrl.editingFileNames = true;">{{ $ctrl.fileNames }}</span>
       {{ $ctrl.getPassTxt() ? ' &lt; pass.txt' : '' }}
     </span>
   </div>
@@ -160,7 +163,8 @@
             <legend translate="ENCRYPTION_TITLE">Encryption</legend>
             <div layout="row" layout-align="space-between center">
               <md-input-container class="md-block" flex-gt-sm>
-                <label><span translate="ENCRYPTION.ENTER_PASSWORD">Enter password</span>:</label> <input ng-model="$ctrl.password" ng-change="$ctrl.passwordChanged()">
+                <label><span translate="ENCRYPTION.ENTER_PASSWORD">Enter password</span>:</label>
+                <input ng-model="$ctrl.password" ng-change="$ctrl.passwordChanged()" ng-trim="false">
               </md-input-container>
             </div>
             <div layout="row" layout-align="space-between center">

@@ -2,7 +2,7 @@ import _ from 'lodash';
 import {LANGUAGES} from './app/languages';
 export default config;
 
-/* @ngInject */
+/** @ngInject */
 // eslint-disable-next-line max-params
 function config($compileProvider, $stateProvider, $translateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/');

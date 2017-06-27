@@ -47,7 +47,6 @@ module.exports = {
       loaders: [{
         loader: 'html-loader',
         options: {
-          conservativeCollapse: false,
           minimize: true
         }
       }]

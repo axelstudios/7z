@@ -1,4 +1,3 @@
-/* eslint-disable capitalized-comments */
 export const LANGUAGES = {
   af: 'Afrikaans (Afrikaans)',
   sq: 'Albanian (Shqip)',
